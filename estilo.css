@@ -8,8 +8,8 @@
         
         color:#014960;
         font-family: 'Lato', sans-serif;
-       /* overflow-x: hidden;
-        scrollbar-width: none;*/
+        overflow-x: hidden;
+        scrollbar-width: none;
     }
 
     #container{
@@ -107,19 +107,17 @@
     .contenedor{
         width:100%;
         max-width: 1120px;
-        
         padding: 60px 60px;
-        height:70vh;
+/*        height:70vh;*/
+        min-height:70vh;
         margin-bottom: 40px;
         text-align: center;
-        
     }
 
     video {
         display:inline-block;
         max-width:90%; 
-        height: 400px; 
-        
+        height: 360px; 
       }
 
     .pie{
@@ -217,30 +215,37 @@ img {
 
 .parrafo-servicio{
     float:right;
-    width:73%;
+    position: relative;
+    left:0px;
+    width:60%;
     text-align: justify;
     display: flex;
-    margin-left: 30px;
+    margin-left: 150px;
     padding-left: 10px;
     margin-top:14px;
-    font-size:large;
+    font-size:medium;
 }
 
+
+
+.lista2 li {
+    width:83%;
+    text-align: justify;
+    margin-left: 20px;
+    padding-left:9px;
+    font-size:medium;   
+}
+.imgservicio{
+    position: relative;
+    right:36px;
+    width:27%;
+    
+}
 footer{
-    margin-bottom: 50px;
     width:100%;
     color:white;
     text-align: center;
     line-height: 50px;
     height:38vh;
     background-color: #014960;
-}
-
-.lista2 li {
-    float:right;
-    width:73%;
-    text-align: justify;
-    margin-left: 30px;
-    padding-left: 10px;
-    font-size:large;   
 }

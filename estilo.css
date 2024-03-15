@@ -1,7 +1,6 @@
     *{
         margin: 0px;
-        padding: 0px;
-        
+        padding: 0px;   
     }
 
 
@@ -9,17 +8,15 @@
         
         color:#014960;
         font-family: 'Lato', sans-serif;
-        overflow-x: hidden;
-    scrollbar-width: none;
+       /* overflow-x: hidden;
+        scrollbar-width: none;*/
     }
 
     #container{
-        width:1200px;
-        border: 1px solid white;
+        width:100%;
         margin: 0 auto;
         margin-top: 0; 
-        height:42vh;
-    
+        border: 1px solid white;
     }
 
     /* line-height: 50px; centrar vertical el texto con la misma altura que tiene la caja*/ 
@@ -47,11 +44,10 @@
     }
     .nav{
         width:60%;
-      
     }
 
 
-    ul li{
+    .lista1 li{
         float:inline-start; 
         list-style: none;
         font-weight: 500;
@@ -61,14 +57,9 @@
         cursor: pointer;
     }
 
-    ul li a:hover{
+    .lista1 li a:hover{
         color: #222; 
     }
-
-    .clearfix{
-        clear:both;
-    }
-
 
     a{
         text-decoration: none;
@@ -114,17 +105,14 @@
     }
 
     .contenedor{
-        width:1200px;
-        max-width: 1200px;
-        overflow: hidden;
+        width:100%;
+        max-width: 1120px;
+        
         padding: 60px 60px;
-        height:78vh;
+        height:70vh;
+        margin-bottom: 40px;
         text-align: center;
-    }
-
-    p{
-        display: block;
-        margin-bottom:4px;
+        
     }
 
     video {
@@ -200,8 +188,8 @@ input[type="submit"] {
     background-color: #014960;
     border: none;
     color:white;
-    border-radius: 5px;
-    padding:5px;
+    border-radius:8px;
+    padding:4px;
     width:30%;
     cursor:pointer;
 }
@@ -212,14 +200,14 @@ input[type="submit"] {
 }
 
 img {
-    float: left; /* Las imágenes se colocarán a la izquierda */
-    margin-right:25px; /* Margen derecho para separarlas del texto */
+    float: left; 
+    margin-right:25px; 
     margin-left: 120px;
 }
 
 
 .parrafo {
-    overflow: hidden; /* Evita que otros elementos floten alrededor de los párrafos */
+    overflow: hidden;
     width:50%;
     text-align: justify;
     display: flex;
@@ -229,11 +217,32 @@ img {
     font-size:large;
 }
 
+.parrafo-servicio{
+    float:right;
+    width:73%;
+    text-align: justify;
+    display: flex;
+    margin-left: 30px;
+    padding-left: 10px;
+    margin-top:14px;
+    font-size:large;
+}
+
 footer{
-    width:1200px;
+    margin-bottom: 50px;
+    width:100%;
     color:white;
     text-align: center;
     line-height: 50px;
-    height:42vh;
+    height:38vh;
     background-color: #014960;
+}
+
+.lista2 li {
+    float:right;
+    width:73%;
+    text-align: justify;
+    margin-left: 30px;
+    padding-left: 10px;
+    font-size:large;   
 }

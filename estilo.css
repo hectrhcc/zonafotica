@@ -1,0 +1,207 @@
+    *{
+        margin: 0px;
+        padding: 0px;
+        
+    }
+
+
+    body{
+        
+        color:#014960;
+        font-family: 'Lato', sans-serif;
+ 
+    }
+
+    input{
+        
+    }
+    #container{
+        width:1247px;
+        border: 1px solid white;
+        margin: 0 auto;
+        margin-top: 0; 
+        overflow: hidden;
+        /*border:2px solid black;*/
+    
+    }
+
+    /* line-height: 50px; centrar vertical el texto con la misma altura que tiene la caja*/ 
+  .banner{
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    padding-bottom:1px;
+  }
+
+    .ban{
+        margin-top: 0;
+        width:25%;
+        
+    }
+
+    .zonafotica{
+        width:160px;
+        height:120px;
+        margin-left:55px;
+        cursor: pointer;
+    }
+    .nav{
+        width:60%;
+      
+    }
+
+
+    ul li{
+        float:inline-start; 
+        list-style: none;
+        font-weight: 500;
+        margin:14px;
+        margin-left:30px;
+        line-height: 50px;
+        cursor: pointer;
+    }
+
+    ul li a:hover{
+        color: #222; 
+    }
+
+    .clearfix{
+        clear:both;
+    }
+
+
+    a{
+        text-decoration: none;
+    }
+
+    .rrss{
+        width: 20%;
+        display: flex;
+        justify-content:left;
+        margin-top: 15px;
+        padding-top: 10px;
+        line-height:40px;
+    }
+    
+    .rrss-icon{
+        display: inline-block;
+        margin-left: 10px;
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+        border-radius:50%;
+        text-align: center;
+        color:#666;
+    }
+    
+    .rrss-icon:hover{
+        background:#3c68ba;
+        color: #222; 
+        cursor: pointer;
+    }
+    
+    .rrss-icon i{
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .subtitulo{
+        text-align: center;
+        font-weight: 400;
+     
+        color:#014960;
+        margin-bottom: 40px;
+        font-size: 40px;
+    }
+
+    .contenedor{
+        width:1200px;
+        max-width: 1200px;
+        overflow: hidden;
+        padding: 60px 40px;
+        height:80vh;
+    }
+
+    p{
+        display: block;
+        margin-bottom:4px;
+    }
+
+    video {
+        display:inline-block;
+        max-width:90%; 
+        height: 400px; 
+      }
+
+    .pie{
+        position: relative;
+        width: 260px;
+        margin-right:-100px; 
+        float: left;     
+      }
+
+    .multimedia{
+        display: flex;
+        flex-direction: row;
+        position: relative;
+        justify-content: center;
+    }
+
+    .multimedia1{
+        margin-right:150px;
+    }
+    .multimedia2{
+    
+    }
+    .multimedia3{
+       margin-right:150px;
+    }
+    .multimedia4{
+        
+    }
+    .rrssfoot{
+    position:relative;
+    top:170px;
+    right:220px;
+    display: flex;
+    justify-content: space-between;
+      }
+    .afoot{
+        margin:7px;
+    }
+
+      form {
+        max-width: 400px;
+        margin: 0 auto;
+      }
+      label, textarea, input[type="email"], input[type="submit"] {
+        display: block;
+        width: 100%;
+        margin-bottom: 10px;
+      }
+      textarea {
+        height: 100px;
+      }
+
+      footer{
+        width:1247px;
+        background-color:#014960;
+        color:white;
+        text-align: center;
+        line-height: 50px;
+        height:42vh;
+    }
+
+input[type="submit"] {
+    background-color: #014960;
+    border: none;
+    color:white;
+    border-radius: 5px;
+    padding:5px;
+    width:30%;
+    cursor:pointer;
+}
+

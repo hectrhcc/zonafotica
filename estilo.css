@@ -147,10 +147,9 @@
     }
 
     .contenedor{
-        
         padding:80px 30px 30px 20px;
         min-height:77vh; 
-        text-align: center;
+        text-align: justify;
         background-image: url(./imagenes/fondos/fondomar5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -159,6 +158,7 @@
     opacity: 0.9;
     color:white;
     }
+
     .contenedor-vision{
         color: aliceblue;
         padding:170px 60px 60px 60px;
@@ -318,6 +318,7 @@ input[type="submit"] {
 img {
     margin-right:25px; 
     margin-left: 120px;
+    border-radius:3%;
 }
 
 .lista2 li {
@@ -513,12 +514,11 @@ footer {
     grid-column: 1;
     max-width: 100%; /* Ajusta el ancho máximo del contenedor de la imagen */
     overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
-    
   }
+
   .imagen img {
     width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-    
 }
 
   .parrafo {
@@ -574,4 +574,36 @@ footer {
     margin-right:172px;
     font-size: large;
     text-align: justify;
+}
+
+.orden3{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-column-gap:0px; 
+ 
+  }
+
+  .imagen3{
+    grid-column: 2;
+    position: relative;
+    right:20%;
+    max-width: 100%; /* Ajusta el ancho máximo del contenedor de la imagen */
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+    
+  }
+
+  .imagen3 img {
+    width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+}
+
+  .parrafo3 {
+    position: relative;
+    left:27%;
+    grid-column: 1; 
+    overflow: hidden;
+    text-align: justify;
+    max-width:400px;
+    font-size:large;
+    
 }

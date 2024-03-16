@@ -378,7 +378,12 @@ footer {
       
 #whatsapp-icon {
     color: green;
-    }
+}
+
+#email-icon {
+    color:#ED1E35;
+}
+
 
 .listapie{
     list-style-type: none;

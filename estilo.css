@@ -12,7 +12,7 @@
         scrollbar-width: none;
     }
 
-    #inicio{
+    #container{
         display:grid;
         width:100%;
         margin: 0 auto;
@@ -122,6 +122,21 @@
         text-align: center;
     }
 
+    
+    .contenedor-inicio{
+        padding:80px 30px 30px 20px;
+        min-height:77vh; 
+        margin-top:80px;
+        text-align: justify;
+        background-image: url(./imagenes/fondos/fondomar8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+    opacity: 0.9;
+    color:black;
+    }
+
     .contenedor{
         
         padding:80px 30px 30px 20px;
@@ -145,7 +160,6 @@
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
-   
     }
     .contenedor2{
         padding:80px 60px 60px 60px;
@@ -164,13 +178,14 @@
         padding:105px 60px 60px 60px;
         min-height:100vh; 
         color: aliceblue;
-        text-align: center;
+        text-align: center;/*revisar*/
         background-image: url(./imagenes/fondos/fondomar4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
     opacity: 0.9;
+    
     }
 
     .contenedor-principios{
@@ -180,11 +195,10 @@
         background-attachment:fixed; 
         background-position:center ;
             opacity: 0.9;
-        margin-top:80px;
-        padding:80px 30px 30px 20px;
+        padding:80px 30px 80px 20px;
         min-height:70vh; 
         color: white;
-        text-align: center;
+        text-align: justify;
         opacity: 0.9;
     }
     .contenedor-multimedia{
@@ -293,53 +307,18 @@ input[type="submit"] {
 
 
 img {
-    float: left; 
     margin-right:25px; 
     margin-left: 120px;
 }
 
-
-.parrafo {
-    overflow: hidden;
-    width:50%;
-    text-align: justify;
-    display: flex;
-    max-width:390px;
-    margin-left: 30px;
-    padding-left: 10px;
-    font-size:large;
-}
-
-.parrafo-servicio{
-    float:right;
-    position: relative;
-    left:0px;
-    width:60%;
-    text-align: justify;
-    display: flex;
-    margin-left: 150px;
-    padding-left: 10px;
-    margin-top:14px;
-    font-size:large;
-    
-}
-
-
-
 .lista2 li {
-    width:83%;
+    width:auto;
     text-align: justify;
     margin-left: 20px;
-    padding-left:9px;
     font-size:large;  
     
 }
-.imgservicio{
-    position: relative;
-    right:38px;
-    width:27%;
-    
-}
+
 
 .correo-column {
     display: flex;
@@ -365,13 +344,23 @@ footer {
     background-color: #014960;
     color: white;
     display: grid;
-  grid-template-columns: 3fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
 
 .logo{
     grid-column: 1; 
+    
     }
 
+.rrssfoot{
+        grid-column: 2;
+        width:auto;
+        display:flex;
+        justify-content:flex-start;
+        padding-top: 50px;
+        line-height:45px;
+        
+    }
 .info{
         grid-column: 3;
         }
@@ -426,14 +415,7 @@ footer {
     line-height:70px;
 }
 
-.rrssfoot{
-    width: 30%;
-    display: flex;
-    justify-content:left;
-    margin-top: 45px;
-    padding-top: 10px;
-    line-height:45px;
-}
+
 
 .rrss-icon2{
     display: inline-block;
@@ -501,3 +483,76 @@ footer {
   .dots span.active {
     background: #333;
   }
+
+  .orden{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    
+  }
+
+  .imagen{
+    grid-column: 1;
+    max-width: 100%; /* Ajusta el ancho máximo del contenedor de la imagen */
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+    
+  }
+  .imagen img {
+    width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+    
+}
+
+  .parrafo {
+    grid-column: 2; 
+    overflow: hidden;
+    /*width:60%;*/
+    text-align: justify;
+    max-width:400px;
+    font-size:large;
+    
+}
+
+
+.orden2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   
+}
+
+.imagen2 {
+    grid-column: 1;
+    
+}
+
+.imagen2 img {
+    width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+}
+
+.contenido {
+    grid-column: 2;
+    overflow: hidden;
+    text-align: justify;
+    max-width: 390px;
+    font-size: large;
+}
+
+.lista2 {
+    margin-left: 5px; /* Agrega margen izquierdo para la lista */
+    
+}
+
+.lista2 li {
+    /* Añade bordes entre los elementos de la lista */
+    padding:8px; /* Añade un espacio alrededor del texto de la lista */
+    
+}
+/*funciona sin fotos al lado, si se añade abra que modificar el anidamiento en html*/
+.parrafo-servicio {
+    margin-top: 10px; /* Añade un espacio entre los elementos de la lista y los párrafos */
+    
+    margin-left:120px;
+    margin-right:172px;
+    font-size: large;
+    text-align: justify;
+}

@@ -607,3 +607,21 @@ footer {
     font-size:large;
     
 }
+
+/* Define la animación */
+@keyframes aparecerDesdeIzquierda {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  
+  /* Aplica la animación a la imagen */
+  .imagen img {
+    animation: aparecerDesdeIzquierda 1s ease-in-out forwards;
+  }
+  

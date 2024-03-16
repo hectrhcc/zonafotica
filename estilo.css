@@ -102,32 +102,38 @@
 
     .subtitulo{
         font-weight: 400;
-        color:#014960;
-        margin-top: 40px;
+        color:white;
         margin-bottom: 40px;
+        margin-top: 40px;
         font-size: 40px;
         text-align: center;
     }
     .subtitulo2{
         font-weight: 400;
         color:white;
-        margin-top: 40px;
+        margin-bottom: 40px;
+        font-size: 40px;
+        text-align: center;
+    }
+    .subtitulo3{
+        font-weight: 400;
+        color:#014960;
         margin-bottom: 40px;
         font-size: 40px;
         text-align: center;
     }
 
-
     .contenedor{
         padding:1px 30px 30px 20px;
-        min-height:70vh; 
+        min-height:77vh; 
         text-align: center;
-        background-image: url(./imagenes/fondos/);
+        background-image: url(./imagenes/fondos/fondomar5.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
-        
+    opacity: 0.9;
+    color:white;
     }
     .contenedor1{
         color: aliceblue;
@@ -139,6 +145,7 @@
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
+   
     }
     .contenedor2{
         padding: 60px 60px;
@@ -149,6 +156,7 @@
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
+    opacity: 0.9;
     }
 
   
@@ -157,20 +165,27 @@
         min-height:100vh; 
         color: aliceblue;
         text-align: center;
-        background-image: url(./imagenes/fondos/fondomar.jpeg);
+        background-image: url(./imagenes/fondos/fondomar4.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
+    opacity: 0.9;
     }
 
     .contenedor-principios{
-        margin-top:82px;
+        background-image: url(./imagenes/fondos/fondomar5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed; 
+        background-position:center ;
+            opacity: 0.9;
+        margin-top:80px;
         padding: 50px 60px;
         min-height:70vh; 
-        color: black;
+        color: white;
         text-align: center;
-       
+        opacity: 0.9;
     }
 
     .contenedor-contacto{
@@ -181,11 +196,23 @@
     }
     
 
-    video {
-        display:inline-block;
-        max-width:90%; 
-        height: 360px; 
-      }
+    .video-container {
+        background-image: url(./imagenes/fondos/fondomar.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed; 
+        background-position:center ;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Ajusta la altura del contenedor para que ocupe toda la pantalla */
+    }
+    
+    .video-container video {
+        max-width: 100%; /* Ajusta el ancho máximo del video */
+        max-height: 90%; /* Ajusta la altura máxima del video */
+    }
+    
 
     .pie{
         position: relative;
@@ -195,33 +222,24 @@
 
     .multimedia{
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         position: relative;
         justify-content: center;
-        max-width:1100px;
+        width:100%;
     }
 
     .multimedia1{
-       margin-right:10px;
+       margin:0 auto;
+       text-align: center;
        width:25%;
+       padding-bottom: 30px;
     }
     .multimedia2{
-        margin-left:0px;
+        margin:0 auto;
         width:25%;
+
     }
-    .multimedia3{
-        margin-left:0px;
-        width:25%;
-        text-align: left;
-    }
-    .multimedia4{
-        position: relative;
-        top:1px;
-        margin-right:20px;
-        margin-left:15px;
-        text-align: left;
-        width:25%;
-    }
+
     .rrssfoot{
     position:relative;
     top:170px;
@@ -258,10 +276,6 @@ input[type="submit"] {
     cursor:pointer;
 }
 
-.direccion{
-    display: flex;
-    text-align: left;
-}
 
 img {
     float: left; 

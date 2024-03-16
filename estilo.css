@@ -124,7 +124,8 @@
     }
 
     .contenedor{
-        padding:1px 30px 30px 20px;
+        
+        padding:80px 30px 30px 20px;
         min-height:77vh; 
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar5.jpg);
@@ -137,7 +138,7 @@
     }
     .contenedor1{
         color: aliceblue;
-        padding: 60px 60px;
+        padding:110px 60px 60px 60px;
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
@@ -148,7 +149,7 @@
    
     }
     .contenedor2{
-        padding: 60px 60px;
+        padding:80px 60px 60px 60px;
         min-height:70vh; 
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar.jpeg);
@@ -161,7 +162,7 @@
 
   
     .contenedor-servicio{
-        padding: 60px 60px;
+        padding:105px 60px 60px 60px;
         min-height:100vh; 
         color: aliceblue;
         text-align: center;
@@ -181,7 +182,7 @@
         background-position:center ;
             opacity: 0.9;
         margin-top:80px;
-        padding: 50px 60px;
+        padding:80px 30px 30px 20px;
         min-height:70vh; 
         color: white;
         text-align: center;
@@ -190,7 +191,7 @@
 
     .contenedor-contacto{
         color: black;
-        padding: 0px 30px 40px 30px;
+        padding:105px 30px 40px 30px;
         min-height:70vh;
         text-align: center;
     }

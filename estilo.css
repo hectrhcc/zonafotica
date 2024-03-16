@@ -12,7 +12,7 @@
         scrollbar-width: none;
     }
 
-    #container{
+    #inicio{
         display:grid;
         width:100%;
         margin: 0 auto;
@@ -135,9 +135,9 @@
     opacity: 0.9;
     color:white;
     }
-    .contenedor1{
+    .contenedor-vision{
         color: aliceblue;
-        padding:110px 60px 60px 60px;
+        padding:170px 60px 60px 60px;
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
@@ -187,17 +187,29 @@
         text-align: center;
         opacity: 0.9;
     }
-
+    .contenedor-multimedia{
+            background-image: url(./imagenes/fondos/fondomar5.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment:fixed; 
+            background-position:center ;
+            opacity: 0.9;
+            margin-top:0px;
+            padding:80px 30px 30px 20px;
+            min-height:100vh; 
+            color: white;
+            text-align: center;
+    }
     .contenedor-contacto{
         color: black;
-        padding:105px 30px 40px 30px;
-        min-height:70vh;
+        padding:26px 30px 22px 30px;
+        min-height:60vh;
         text-align: center;
     }
     
 
     .video-container {
-        background-image: url(./imagenes/fondos/fondomar.jpeg);
+        background-image: url(./imagenes/fondos/fondomar5.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-attachment:fixed; 
@@ -205,14 +217,28 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        height: 100vh; /* Ajusta la altura del contenedor para que ocupe toda la pantalla */
+        height: 100vh; 
+        opacity: 0.9;
     }
     
     .video-container video {
-        max-width: 100%; /* Ajusta el ancho máximo del video */
-        max-height: 90%; /* Ajusta la altura máxima del video */
+        max-width: 100%; 
+        max-height: 90%; 
     }
     
+    .otroscontactos {
+        background-image: url(./imagenes/fondos/fondomar.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed; 
+        background-position:center ;
+            opacity: 0.9;
+        padding:80px 30px 30px 20px;
+        min-height:40vh; 
+        color: white;
+        text-align: center;
+        opacity: 0.9;
+    }
 
     .pie{
         position: relative;
@@ -220,7 +246,7 @@
         width: 250px; 
       }
 
-    .multimedia{
+    .media{
         display: flex;
         flex-direction: column;
         position: relative;
@@ -228,7 +254,7 @@
         width:100%;
     }
 
-    .multimedia1{
+    .media1{
        margin:0 auto;
        text-align: center;
        width:25%;
@@ -430,3 +456,48 @@ footer {
     font-size: 21px;
     line-height: 20px;
 }
+
+#carrusel {
+    position: relative;
+  }
+  
+  .slide {
+    position: absolute;
+    left: 20%;
+    opacity: 0;
+    transition: opacity 1s;
+    display: none;
+
+  }
+  
+  .slide.active {
+    opacity: 1;  
+    display: block; 
+  }
+  
+  .slide img {
+    width: 470px;
+    height: 370px;
+  }
+  
+  .dots {
+    position: absolute;
+  top: 400px; /* Ajusta la distancia del borde inferior */
+  left: 50%; /* Centra horizontalmente */
+  transform: translateX(-50%); /* Centra horizontalmente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  }
+  
+  .dots span {
+    background: #ccc;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  .dots span.active {
+    background: #333;
+  }

@@ -18,16 +18,20 @@
         margin-top: 0; 
         border: 1px solid white;
     }
-
+#contacto{
+    margin-top:70px; 
+}
     /* line-height: 50px; centrar vertical el texto con la misma altura que tiene la caja*/ 
   .banner{
     width: 100%;
     margin-top: 0px;
     padding-top: 0px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     display: flex;
     flex-direction: row;
-    padding-bottom:1px;
+    position: fixed;
+    z-index: 2;
+    background-color:white;
   }
 
     .ban{
@@ -37,8 +41,8 @@
     }
 
     .zonafotica{
-        width:160px;
-        height:120px;
+        width:130px;
+        height:110px;
         margin-left:55px;
         cursor: pointer;
     }
@@ -103,16 +107,77 @@
         font-size: 40px;
         text-align: center;
     }
-
-    .contenedor{
-        width:100%;
-        max-width: 1120px;
-        padding: 60px 60px;
-/*        height:70vh;*/
-        min-height:70vh;
+    .subtitulo2{
+        font-weight: 400;
+        color:white;
         margin-bottom: 40px;
+        font-size: 40px;
         text-align: center;
     }
+
+
+    .contenedor{
+        padding:1px 30px 30px 20px;
+        min-height:70vh; 
+        text-align: center;
+        background-image: url(./imagenes/fondos/);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+        
+    }
+    .contenedor1{
+        color: aliceblue;
+        padding: 60px 60px;
+        min-height:70vh;
+        text-align: center;
+        background-image: url(./imagenes/fondos/fondomar4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+    }
+    .contenedor2{
+        padding: 60px 60px;
+        min-height:70vh; 
+        text-align: center;
+        background-image: url(./imagenes/fondos/fondomar.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+    }
+
+  
+    .contenedor-servicio{
+        padding: 60px 60px;
+        min-height:100vh; 
+        color: aliceblue;
+        text-align: center;
+        background-image: url(./imagenes/fondos/fondomar.jpeg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+    }
+
+    .contenedor-principios{
+        margin-top:82px;
+        padding: 50px 60px;
+        min-height:70vh; 
+        color: black;
+        text-align: center;
+       
+    }
+
+    .contenedor-contacto{
+        color: black;
+        padding: 0px 30px 40px 30px;
+        min-height:70vh;
+        text-align: center;
+    }
+    
 
     video {
         display:inline-block;
@@ -207,7 +272,7 @@ img {
     width:50%;
     text-align: justify;
     display: flex;
-    max-width:350px;
+    max-width:390px;
     margin-left: 30px;
     padding-left: 10px;
     font-size:large;
@@ -223,7 +288,8 @@ img {
     margin-left: 150px;
     padding-left: 10px;
     margin-top:14px;
-    font-size:medium;
+    font-size:large;
+    
 }
 
 
@@ -233,19 +299,44 @@ img {
     text-align: justify;
     margin-left: 20px;
     padding-left:9px;
-    font-size:medium;   
+    font-size:large;  
+    
 }
 .imgservicio{
     position: relative;
-    right:36px;
+    right:38px;
     width:27%;
     
 }
-footer{
-    width:100%;
-    color:white;
-    text-align: center;
-    line-height: 50px;
-    height:38vh;
+
+
+.footer{
+    display:inline;
+}
+
+
+footer {
+    padding:25px; /* Espacio alrededor del footer */
     background-color: #014960;
+    color: white;
+    text-align: center;
+    
+}
+.footer-column {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap:50px; /* Espacio entre las columnas */
+}
+
+.footer-item {
+    flex: 1 1 150px; /* Establece el ancho máximo de las columnas */
+    margin: 10px; /* Espacio alrededor de cada elemento */
+    text-align: left;
+    width:30px
+}
+
+.footer-item p {
+    margin: 5px 0; /* Espacio entre las líneas */
+   
 }

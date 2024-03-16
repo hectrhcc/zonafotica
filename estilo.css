@@ -64,6 +64,14 @@
         color: #222; 
     }
 
+    .listapie li a:not(:active){
+        color: #fff; 
+    }
+
+.lista1 li a:not(:active){
+        color: #014960; 
+    }
+
     a{
         text-decoration: none;
     }
@@ -93,6 +101,7 @@
         color: white; 
         cursor: pointer;
     }
+    
     
     .rrss-icon i{
         font-size: 21px;
@@ -395,6 +404,11 @@ footer {
 
 .listafin:hover{
     color:#ED1E35;
+}
+
+
+.lista:not(:active) {
+    color:white;
 }
 
 .correo{

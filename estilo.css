@@ -13,15 +13,14 @@
     }
 
     #container{
+        display:grid;
         width:100%;
         margin: 0 auto;
         margin-top: 0; 
-        border: 1px solid white;
     }
 #contacto{
     margin-top:70px; 
 }
-    /* line-height: 50px; centrar vertical el texto con la misma altura que tiene la caja*/ 
   .banner{
     width: 100%;
     margin-top: 0px;
@@ -91,7 +90,7 @@
     
     .rrss-icon:hover{
         background:#3c68ba;
-        color: #222; 
+        color: white; 
         cursor: pointer;
     }
     
@@ -235,19 +234,8 @@
        width:25%;
        padding-bottom: 30px;
     }
-    .multimedia2{
-        margin:0 auto;
-        width:25%;
 
-    }
-
-    .rrssfoot{
-    position:relative;
-    top:170px;
-    right:290px;
-    display: flex;
-    justify-content: space-between;
-      }
+   
     .afoot{
         margin:7px;
     }
@@ -327,34 +315,118 @@ img {
     
 }
 
-
-.footer{
-    display:inline;
-}
-
-
-footer {
-    padding:25px; /* Espacio alrededor del footer */
-    background-color: #014960;
-    color: white;
-    text-align: center;
-    
-}
-.footer-column {
+.correo-column {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap:50px; /* Espacio entre las columnas */
 }
 
-.footer-item {
+.correo-item {
     flex: 1 1 150px; /* Establece el ancho máximo de las columnas */
     margin: 10px; /* Espacio alrededor de cada elemento */
     text-align: left;
     width:30px
 }
 
-.footer-item p {
+.correo-item p {
     margin: 5px 0; /* Espacio entre las líneas */
    
+}
+
+footer { 
+    padding: 2rem;
+    background-color: #014960;
+    color: white;
+    display: grid;
+  grid-template-columns: 3fr 1fr 1fr 1fr;
+}
+
+.logo{
+    grid-column: 1; 
+    }
+
+.info{
+        grid-column: 3;
+        }
+
+.contacto {
+    grid-column: 4;
+
+}
+
+.dir {
+    grid-column: 5;
+    
+}
+
+      
+#whatsapp-icon {
+    color: green;
+    }
+
+.listapie{
+    list-style-type: none;
+}
+
+.listafin{
+    color:white;
+}
+
+.listafin:hover{
+    color:#ED1E35;
+}
+
+.correo{
+    color:white;
+}
+
+.correo:hover{
+    color: #ED1E35;
+}
+
+.whatsapp{
+    color:white;
+}
+
+.whatsapp:hover{
+    color:#ED1E35;
+}
+
+.zonafotica2{
+    border-radius: 100px;
+    width:150px;
+    height:150px;
+    line-height:70px;
+}
+
+.rrssfoot{
+    width: 30%;
+    display: flex;
+    justify-content:left;
+    margin-top: 45px;
+    padding-top: 10px;
+    line-height:45px;
+}
+
+.rrss-icon2{
+    display: inline-block;
+    margin-left: 10px;
+    width: 40px;
+    height: 40px;
+    border: 1px solid #fff;
+    border-radius:50%;
+    text-align: center;
+    color:white;
+}
+
+.rrss-icon2:hover{
+    background:#ED1E35;
+    color: white;
+    cursor: pointer;
+}
+
+.rrss-icon2 i{
+    font-size: 21px;
+    line-height: 20px;
 }

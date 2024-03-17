@@ -589,3 +589,46 @@ footer {
     margin: 20px auto; 
   }
   
+  /* Estilos para el modal */
+.modal {
+    display: none; /* El modal está oculto por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 25%;
+    top: 22.5%;
+    width: 60%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo opaco */
+    overflow: auto;
+}
+
+.modal-content {
+    display: block;
+    margin: auto;
+    max-width: 100%; /* Tamaño máximo de la imagen */
+    max-height: 100%; /* Altura máxima de la imagen */
+}
+
+.close {
+    position: absolute;
+    top: -15px;
+    right:5px;
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+}
+
+
+/* Estilos para oscurecer el fondo */
+body.modal-open {
+    overflow: hidden; /* Evita el desplazamiento del cuerpo */
+    background-color: rgba(0, 0, 0, 0.6); /* Color de fondo oscuro */
+    transition: background-color 0.3s ease; /* Transición suave */
+}

@@ -416,6 +416,10 @@ footer {
 #email-icon {
     color:#ED1E35;
 }
+.colab{
+    color:#fff;
+    font-size:10px;
+}
 
 .listapie {
     list-style-type: none;
@@ -646,3 +650,55 @@ body.modal-open {
     width: 50%;
     margin: 0 auto;
 }
+
+.contenedor-circulo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: repeat(3, 1fr);
+    justify-content: center;
+    align-content: center;
+  }
+  
+  .colaborador {
+    border-radius: 50%;
+    width: 150px;
+  }
+  
+  .colaborador:nth-child(1) {
+    grid-row: 1;
+    grid-column: 1;
+  }
+  
+  .colaborador:nth-child(2) {
+    grid-row: 1;
+    grid-column: 2;
+  }
+  
+  .colaborador:nth-child(3) {
+    grid-row: 1;
+    grid-column: 3;  
+  }
+  
+  .colaborador:nth-child(4) {
+    grid-row: 2;
+    grid-column: 1;
+  }
+  
+  .colaborador:nth-child(5) {
+    grid-row: 2;
+    grid-column: 2; 
+  }
+  
+  .colaborador:nth-child(6) {
+    grid-row: 2;
+    grid-column: 3;
+  }
+  
+  .colaborador:nth-child(7) {
+    grid-row: 3;
+    grid-column: 2;
+  }
+  
+  .zonafotica0{
+    margin-left:-100px;
+  }

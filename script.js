@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', () => {
         
     });
 
-
+/* colaboradores en circulo
     $(document).ready(function() {
         var colaboradores = $(".colaborador");
         var numColaboradores = colaboradores.length;
@@ -38,5 +38,6 @@ document.addEventListener('DOMContentLoaded', () => {
                 top: posicionY + "px"
             });
         });
-    });
+    });*/
+    
 });

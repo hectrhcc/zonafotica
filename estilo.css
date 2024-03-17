@@ -5,9 +5,8 @@
 
 
     body{
-        
         color:#014960;
-        font-family: 'Lato', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         overflow-x: hidden;
         scrollbar-width: none;
     }
@@ -40,7 +39,7 @@
     }
 
     .zonafotica{
-        width:155px;
+        width:185px;
         height:120px;
         margin-left:70px;
         cursor: pointer;
@@ -117,32 +116,24 @@
         font-size: 40px;
         text-align: center;
     }
+   
     .subtitulo-nos{
-        font-weight: 500;
-        color:white;
-        margin-bottom: 40px;
-        margin-top:0px;
-        font-size:50px;
-        text-align: center;
-    }
-
-    .subtitulo-principios{
-        font-weight: 700;
-        color:black;
-        margin-bottom: 40px;
-        margin-top: 40px;
-        font-size: 40px;
-        text-align: center;
-    }
-
-    .subtitulo2{
         font-weight: 400;
         color:white;
+        margin-top: 0px;
+        margin-bottom:50px;
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .subtitulo-negro{
+        font-weight: 400;
+        color:#000;
         margin-bottom: 40px;
         font-size: 40px;
         text-align: center;
     }
-    .subtitulo3{
+    .subtitulo-azul{
         font-weight: 400;
         color:#014960;
         margin-bottom: 40px;
@@ -161,11 +152,83 @@
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
-    opacity: 0.9;
+    
     color:black;
     }
+    .contenedor-servicio{
+        padding:105px 60px 60px 60px;
+        min-height:100vh; 
+        color: aliceblue;
+        text-align: center;/*revisar*/
+        background-image: url(./imagenes/fondos/fondomar4.jpg);
+        background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment:fixed; 
+	    background-position:center ;
+        opacity: 0.9;
+    }
+    .degradado {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 50px; /* Altura del degradado, ajusta según sea necesario */
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); /* Degradado */
+    }
 
+    .contenedor-banco{
+        padding:80px 30px 30px 20px;
+        min-height:147vh; 
+        opacity: 0.9;
+        text-align: justify;
+        /*background-color: #181857;*/
+        /*background-image: url(./imagenes/fondos/fondomar5.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment:fixed; 
+        background-position:center ;*/
+    }
+    .grid {
+        display: grid;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 10px;
+        width: 80%; /* Ajusta el ancho de la cuadrícula al 65% */
+        margin: 0 auto; /* Centra la cuadrícula horizontalmente */
+
+    }
+    
+    .grid img {
+        max-width: 100%; /* Restamos 2px para compensar el espacio del borde */
+        height: auto;
+        display: block;
+        width: 100%;
+        object-fit: cover;
+        aspect-ratio: 1;
+        padding: 0; /* Eliminamos cualquier relleno predeterminado de las imágenes */
+        border: none; /* Eliminamos cualquier borde predeterminado de las imágenes */
+        margin: 10px; 
+        box-shadow: 0 0 6px rgba(0,0,0,.5)
+    }
+    
+
+    .grid1{
+        grid-column: 1; 
+        
+    }
+    .grid2{
+        grid-column: 2; 
+        
+    }
+    .grid3{
+        grid-column: 3; 
+        
+    }
+    
+
+   
+    
     .contenedor-colaboradores{
+        transition: background-image 0.5s ease;
         padding-top:80px;
         padding-bottom: 40px;
         min-height:77vh; 
@@ -191,9 +254,11 @@
     color:white;
     }
 
+    
+
     .contenedor-vision{
         color: aliceblue;
-        padding:120px 60px 60px 60px;
+        padding:100px 60px 60px 60px;
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
@@ -215,40 +280,15 @@
     }
 
   
-    .contenedor-servicio{
-        padding:105px 60px 60px 60px;
-        min-height:100vh; 
-        color: aliceblue;
-        text-align: center;/*revisar*/
-        background-image: url(./imagenes/fondos/fondomar4.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment:fixed; 
-	background-position:center ;
-    opacity: 0.9;
-    
-    }
+
 
     .contenedor-principios{
         padding:80px 30px 80px 20px;
-        min-height:70vh; 
+        min-height:60vh; 
         color: black;
         text-align: justify;
-        opacity: 0.9;
     }
-    .contenedor-multimedia{
-            background-image: url(./imagenes/fondos/fondomar2.jpg);
-            background-repeat: no-repeat;
-            background-size: cover;
-            background-attachment:fixed; 
-            background-position:center ;
-            opacity: 0.9;
-            margin-top:0px;
-            padding:80px 30px 30px 20px;
-            min-height:100vh; 
-            color: white;
-            text-align: center;
-    }
+ 
     .contenedor-contacto{
         color: black;
         padding:26px 30px 22px 30px;
@@ -335,11 +375,7 @@ input[type="submit"] {
 }
 
 
-img {
-    margin-right:25px; 
-    margin-left: 120px;
-    border-radius:3%;
-}
+
 
 .lista2 li {
     width:auto;
@@ -379,7 +415,7 @@ footer {
 
 .logo{
     grid-column: 1; 
-    margin-left:60px;
+    margin-left:200px;
     }
 
 .rrssfoot{
@@ -397,14 +433,14 @@ footer {
         }
 
 .contacto {
-    font-size:1.3rem;;
+    font-size:1.2rem;;
     grid-column: 2; 
     margin-right:200px;
     
 }
 
 .dir {
-    font-size:1.3rem;
+    font-size:1.2rem;
     grid-column: 1; 
     margin-left:200px;
 }
@@ -453,11 +489,17 @@ footer {
 }
 
 .zonafotica2{
-    border-radius:80px;
-    width:150px;
+    border-radius:100px;
+    width:160px;
     height:150px;
-    line-height:75px;
+    transition: transform 0.3s ease; /* Agregamos una transición suave para suavizar el efecto de zoom */
 }
+
+/* Agregamos una regla para aplicar el zoom out cuando se active una clase específica, por ejemplo, .zoom-out */
+.zonafotica2.zoom-out {
+    transform: scale(0.9); /* Reducimos el tamaño al 80% (zoom out) */
+}
+
 
 
 
@@ -506,28 +548,8 @@ footer {
     height: 370px;
   }
   
-
-  .orden-principios{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; 
-  }
-
-  .imagen-principios1{
-    grid-column: 1;
-    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
-    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
-    margin-left:1px;
-  }
-
-  .imagen-principios1 img {
-    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-    position: relative;
-    right:45px;
-}
-.parrafo-principios {  
+  .parrafo-principios {  
     overflow: hidden;
-    /*width:60%;*/
     text-align: center;
     max-width:600px;
     font-size:1.4rem;
@@ -535,62 +557,26 @@ footer {
     margin-left:28px;
 }
 
-.imagen-principios2{
-    grid-column: 2;
-    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
-    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
-    margin-left:1px;
-  }
-
-  .imagen-principios2 img {
-    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-    position: relative;
-    right:45px;
-}
-
-.imagen-principios3{
-    grid-column: 3;
-    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
-    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
-    margin-left:1px;
-  }
-
-  .imagen-principios3 img {
-    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-    position: relative;
-    right:45px;
-}
-
-.imagen-principios4{
-    grid-column: 4;
-    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
-    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
-    margin-left:1px;
-  }
-
-  .imagen-principios4 img {
-    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-    position: relative;
-    right:45px;
+  .orden-principios{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
     
-}
-
-.imagen-principios5{
-    grid-column: 5;
-    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
-    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
-    margin-left:1px;
   }
 
-  .imagen-principios5 img {
-    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-    position: relative;
-    right:45px;
+
+.imagen-principios {
+    grid-column: span 1; /* Ocupa una columna completa */
+    display: flex; /* Usa flexbox para centrar verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    margin-left: 1px;
 }
+
+
+.imagen-principios img {
+    max-width: 50%; /* Ajusta el ancho máximo de la imagen */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+}
+
 
   .parrafo-nosotros {
     margin: 0 auto;

@@ -17,9 +17,7 @@
         margin: 0 auto;
         margin-top: 0; 
     }
-#contacto{
-    margin-top:70px; 
-}
+
   .banner{
     width: 100%;
     margin-top: 0px;
@@ -177,7 +175,7 @@
     }
 
     .contenedor-banco{
-        padding:80px 30px 30px 20px;
+        padding:112px 30px 30px 20px;
         min-height:147vh; 
         opacity: 0.9;
         text-align: justify;
@@ -229,7 +227,7 @@
     
     .contenedor-colaboradores{
         transition: background-image 0.5s ease;
-        padding-top:80px;
+        padding-top:90px;
         padding-bottom: 40px;
         min-height:77vh; 
         background-image: url(./imagenes/fondos/fondomar.jpeg   );
@@ -241,24 +239,9 @@
     color:black;
     }
 
-    .contenedor{
-        padding:80px 30px 30px 20px;
-        min-height:77vh; 
-        text-align: justify;
-        background-image: url(./imagenes/fondos/fondomar5.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment:fixed; 
-	background-position:center ;
-    opacity: 0.9;
-    color:white;
-    }
-
-    
-
-    .contenedor-vision{
+    .contenedor-nosotros{
         color: aliceblue;
-        padding:100px 60px 60px 60px;
+        padding:111px 60px 60px 60px;
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
@@ -267,23 +250,10 @@
 	background-attachment:fixed; 
 	background-position:center ;
     }
-    .contenedor2{
-        padding:80px 60px 60px 60px;
-        min-height:70vh; 
-        text-align: center;
-        background-image: url(./imagenes/fondos/fondomar.jpeg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment:fixed; 
-	background-position:center ;
-    opacity: 0.9;
-    }
-
-  
 
 
     .contenedor-principios{
-        padding:80px 30px 80px 20px;
+        padding:111px 30px 80px 20px;
         min-height:60vh; 
         color: black;
         text-align: justify;
@@ -291,7 +261,7 @@
  
     .contenedor-contacto{
         color: black;
-        padding:26px 30px 22px 30px;
+        padding:111px 30px 22px 30px;
         min-height:60vh;
         text-align: center;
     }
@@ -315,19 +285,6 @@
         max-height: 90%; 
     }
     
-    .otroscontactos {
-        background-image: url(./imagenes/fondos/fondomar.jpeg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment:fixed; 
-        background-position:center ;
-            opacity: 0.9;
-        padding:80px 30px 30px 20px;
-        min-height:40vh; 
-        color: white;
-        text-align: center;
-        opacity: 0.9;
-    }
 
     .pie{
         position: relative;
@@ -339,8 +296,7 @@
         display:grid;
         grid-template-columns: 1fr 1fr;
         width:100%;
-        margin-top:60px;
-        margin-bottom:50px;
+        margin-bottom:30px;
     }
 
 
@@ -374,9 +330,6 @@ input[type="submit"] {
     cursor:pointer;
 }
 
-
-
-
 .lista2 li {
     width:auto;
     text-align: justify;
@@ -384,7 +337,6 @@ input[type="submit"] {
     font-size:large;  
     
 }
-
 
 .correo-column {
     display: flex;
@@ -454,19 +406,22 @@ footer {
     color:#ED1E35;
 }
 
-
-.listapie{
+.listapie {
     list-style-type: none;
 }
 
-.listafin{
-    color:black;
+.listapie li a {
+    text-decoration: none; 
 }
 
-.listafin:hover{
-    color:#ED1E35;
+.listapie li a:hover {
+    color: #ED1E35; 
 }
 
+
+.listapie li a:active {
+    color: white; 
+}
 
 .lista:not(:active) {
     color:black;
@@ -499,10 +454,6 @@ footer {
 .zonafotica2.zoom-out {
     transform: scale(0.9); /* Reducimos el tamaño al 80% (zoom out) */
 }
-
-
-
-
 .rrss-icon2{
     display: inline-block;
     margin-left: 10px;
@@ -525,28 +476,6 @@ footer {
     line-height: 20px;
 }
 
-#carrusel {
-    position: relative;
-  }
-  
-  .slide {
-    position: absolute;
-    left: 20%;
-    opacity: 0;
-    transition: opacity 1s;
-    display: none;
-
-  }
-  
-  .slide.active {
-    opacity: 1;  
-    display: block; 
-  }
-  
-  .slide img {
-    width: 470px;
-    height: 370px;
-  }
   
   .parrafo-principios {  
     overflow: hidden;
@@ -586,59 +515,6 @@ footer {
     font-size:1.4rem;
 }
 
-
-.orden2 {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-   
-}
-
-.imagen2 {
-    grid-column: 1;
-    
-}
-
-.imagen2 img {
-    width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-}
-
-.contenido {
-    grid-column: 2;
-    overflow: hidden;
-    text-align: justify;
-    max-width: 390px;
-    font-size: large;
-}
-
-.lista2 {
-    margin-left: 5px; /* Agrega margen izquierdo para la lista */
-    
-}
-
-.lista2 li {
-    /* Añade bordes entre los elementos de la lista */
-    padding:8px; /* Añade un espacio alrededor del texto de la lista */
-    
-}
-/*funciona sin fotos al lado, si se añade abra que modificar el anidamiento en html*/
-
-
-.orden3{
-    display: grid;
-    grid-template-columns: 1fr 1fr ;
-    grid-column-gap:0px; 
- 
-  }
-
-
-  .imagen3 img {
-    width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
-    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
-}
-
-
-/* Define la animación */
 @keyframes aparecerDesdeIzquierda {
     from {
       transform: translateX(-100%);
@@ -650,7 +526,6 @@ footer {
     }
   }
   
-  /* Aplica la animación a la imagen */
   .imagen img {
     animation: aparecerDesdeIzquierda 1s ease-in-out forwards;
   }
@@ -706,3 +581,10 @@ footer {
     grid-column: 2; 
     background-color: #fff;
   }
+
+  .hr {
+    border-top: 1px solid white; 
+    width: 55%; 
+    margin: 20px auto; 
+  }
+  

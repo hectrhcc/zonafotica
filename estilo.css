@@ -162,6 +162,7 @@
 	background-attachment:fixed; 
 	background-position:center ;
     color:black;
+    
     }
     .contenedor-servicio{
         padding:105px 60px 60px 60px;
@@ -556,7 +557,10 @@ footer {
     max-width:780px;
     font-size:1.4rem;
     width:95%;
+    color:white;
 }
+
+
 
 
 
@@ -700,5 +704,21 @@ body.modal-open {
   }
   
   .zonafotica0{
-    margin-left:-100px;
+    display: flex;
+    margin: 0 auto;
+    width:80%;
+  }
+
+  .inimg{
+    position: relative;
+    left:28%;
+  }
+  .inimg2{
+    position: relative;
+    left:12%;
+  }
+
+  .inimg3{
+    position: relative;
+    left:31%;
   }

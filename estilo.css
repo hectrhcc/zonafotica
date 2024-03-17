@@ -372,12 +372,13 @@ footer {
     background-color: #014960;
     color: white;
     display: grid;
-  grid-template-columns: auto auto auto;
+  grid-template-columns: 2fr 1fr 1fr;
 }
 
 .logo{
     grid-column: 1; 
-    margin-left:200px;
+    padding-left:90px;
+    text-align: center;
     }
 
 .rrssfoot{
@@ -456,14 +457,10 @@ footer {
 .zonafotica2{
     border-radius:100px;
     width:160px;
-    height:150px;
-    transition: transform 0.3s ease; /* Agregamos una transición suave para suavizar el efecto de zoom */
+    height:160px;
 }
 
-/* Agregamos una regla para aplicar el zoom out cuando se active una clase específica, por ejemplo, .zoom-out */
-.zonafotica2.zoom-out {
-    transform: scale(0.9); /* Reducimos el tamaño al 80% (zoom out) */
-}
+
 .rrss-icon2{
     display: inline-block;
     margin-left: 10px;

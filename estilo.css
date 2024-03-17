@@ -153,12 +153,24 @@
     
     color:black;
     }
+    .contenedor-inicio2{
+        padding:80px 30px 30px 20px;
+        min-height:77vh; 
+        text-align: justify;
+        background-image: url(./imagenes/fondos/fondomar4.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+    
+    color:black;
+    }
     .contenedor-servicio{
         padding:105px 60px 60px 60px;
         min-height:100vh; 
         color: aliceblue;
         text-align: center;/*revisar*/
-        background-image: url(./imagenes/fondos/fondomar4.jpg);
+        background-image: url(./imagenes/fondos/fondomar.jpeg);
         background-repeat: no-repeat;
 	    background-size: cover;
 	    background-attachment:fixed; 
@@ -229,7 +241,6 @@
     .contenedor-colaboradores{
         transition: background-image 0.5s ease;
         padding-top:90px;
-        padding-bottom: 40px;
         min-height:77vh; 
         background-image: url(./imagenes/fondos/fondomar.jpeg   );
 	background-repeat: no-repeat;
@@ -543,45 +554,11 @@ footer {
   }
   
   .colaborador {
-    border-radius: 50%;  
+    margin-top: 80px;
+    color: white;
     width: 150px;
   }
   
-  .colaborador:nth-child(1) {
-    grid-row: 1;
-    grid-column: 2;
-    background-color: #fff;
-  }
-  
-  .colaborador:nth-child(2) {
-    grid-row: 2;
-    grid-column: 1; 
-    background-color: #fff;
-  }
-  
-  .colaborador:nth-child(3) {
-    grid-row: 2;
-    grid-column: 3;
-    background-color: #fff;
-  }
-  
-  .colaborador:nth-child(4) {
-    grid-row: 3;
-    grid-column: 3;
-    background-color: #fff;
-  }
-  
-  .colaborador:nth-child(5) {
-    grid-row: 3;
-    grid-column: 1;
-    background-color: #fff;
-  } 
-  
-  .colaborador:nth-child(6) {
-    grid-row: 4;
-    grid-column: 2; 
-    background-color: #fff;
-  }
 
   .hr {
     border-top: 1px solid white; 

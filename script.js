@@ -20,4 +20,23 @@ document.addEventListener('DOMContentLoaded', () => {
         banner.style.zIndex = '2'; // Restaura el z-index original del banner al cerrar el modal
         
     });
+
+
+    $(document).ready(function() {
+        var colaboradores = $(".colaborador");
+        var numColaboradores = colaboradores.length;
+        var angulo = 360 / numColaboradores;
+        var radio = 180;
+
+        colaboradores.each(function(index) {
+            var radianes = (angulo * index * Math.PI) / 180;
+            var posicionX = Math.cos(radianes) * radio + 200; // 200 es el centro del contenedor
+            var posicionY = Math.sin(radianes) * radio + 200;
+
+            $(this).css({
+                left: posicionX + "px",
+                top: posicionY + "px"
+            });
+        });
+    });
 });

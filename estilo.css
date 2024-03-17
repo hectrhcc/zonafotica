@@ -543,21 +543,24 @@ footer {
   }
 
   .contenedor-circulo {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(4, 1fr);
-    justify-content: center;
-    align-content: center;
     position: relative;
-        left:10%;
+    width: 600px;
+    height: 600px;
+    margin: 50px auto;
     
-  }
-  
-  .colaborador {
-    margin-top: 80px;
-    color: white;
+    border-radius: 50%;
+}
+
+.colaborador {
+    position: absolute;
     width: 150px;
-  }
+    height: 150px;
+    line-height: 1.5;
+    text-align: center;
+    color:white;
+    
+    
+}
   
 
   .hr {

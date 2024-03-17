@@ -205,7 +205,8 @@
         padding: 0; /* Eliminamos cualquier relleno predeterminado de las imágenes */
         border: none; /* Eliminamos cualquier borde predeterminado de las imágenes */
         margin: 10px; 
-        box-shadow: 0 0 6px rgba(0,0,0,.5)
+        box-shadow: 0 0 6px rgba(0,0,0,.5);
+        cursor:pointer;
     }
     
 

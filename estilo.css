@@ -25,7 +25,7 @@
     width: 100%;
     margin-top: 0px;
     padding-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom:1px;
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -40,9 +40,9 @@
     }
 
     .zonafotica{
-        width:130px;
-        height:110px;
-        margin-left:55px;
+        width:155px;
+        height:120px;
+        margin-left:70px;
         cursor: pointer;
     }
     .nav{
@@ -54,10 +54,11 @@
         float:inline-start; 
         list-style: none;
         font-weight: 700;
-        margin:14px;
-        margin-left:30px;
-        line-height: 50px;
+        margin:7px;
+        padding-left:3px;
+        line-height:75px;
         cursor: pointer;
+        
     }
 
     .lista1 li a:hover{
@@ -77,7 +78,7 @@
     }
 
     .rrss{
-        width: 20%;
+        width:15%;
         display: flex;
         justify-content:left;
         margin-top: 15px;
@@ -116,6 +117,24 @@
         font-size: 40px;
         text-align: center;
     }
+    .subtitulo-nos{
+        font-weight: 500;
+        color:white;
+        margin-bottom: 40px;
+        margin-top:0px;
+        font-size:50px;
+        text-align: center;
+    }
+
+    .subtitulo-principios{
+        font-weight: 700;
+        color:black;
+        margin-bottom: 40px;
+        margin-top: 40px;
+        font-size: 40px;
+        text-align: center;
+    }
+
     .subtitulo2{
         font-weight: 400;
         color:white;
@@ -146,6 +165,19 @@
     color:black;
     }
 
+    .contenedor-colaboradores{
+        padding-top:80px;
+        padding-bottom: 40px;
+        min-height:77vh; 
+        background-image: url(./imagenes/fondos/fondomar.jpeg   );
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+    opacity: 0.9;
+    color:black;
+    }
+
     .contenedor{
         padding:80px 30px 30px 20px;
         min-height:77vh; 
@@ -161,7 +193,7 @@
 
     .contenedor-vision{
         color: aliceblue;
-        padding:170px 60px 60px 60px;
+        padding:120px 60px 60px 60px;
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
@@ -198,20 +230,14 @@
     }
 
     .contenedor-principios{
-        background-image: url(./imagenes/fondos/fondomar5.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-attachment:fixed; 
-        background-position:center ;
-            opacity: 0.9;
         padding:80px 30px 80px 20px;
         min-height:70vh; 
-        color: white;
+        color: black;
         text-align: justify;
         opacity: 0.9;
     }
     .contenedor-multimedia{
-            background-image: url(./imagenes/fondos/fondomar5.jpg);
+            background-image: url(./imagenes/fondos/fondomar2.jpg);
             background-repeat: no-repeat;
             background-size: cover;
             background-attachment:fixed; 
@@ -270,19 +296,13 @@
       }
 
     .media{
-        display: flex;
-        flex-direction: column;
-        position: relative;
-        justify-content: center;
+        display:grid;
+        grid-template-columns: 1fr 1fr;
         width:100%;
+        margin-top:60px;
+        margin-bottom:50px;
     }
 
-    .media1{
-       margin:0 auto;
-       text-align: center;
-       width:25%;
-       padding-bottom: 30px;
-    }
 
    
     .afoot{
@@ -354,12 +374,12 @@ footer {
     background-color: #014960;
     color: white;
     display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-columns: auto auto auto;
 }
 
 .logo{
     grid-column: 1; 
-    
+    margin-left:60px;
     }
 
 .rrssfoot{
@@ -373,16 +393,20 @@ footer {
     }
 .info{
         grid-column: 3;
+        margin-left:60px;
         }
 
 .contacto {
-    grid-column: 4;
-
+    font-size:1.3rem;;
+    grid-column: 2; 
+    margin-right:200px;
+    
 }
 
 .dir {
-    grid-column: 5;
-    
+    font-size:1.3rem;
+    grid-column: 1; 
+    margin-left:200px;
 }
 
       
@@ -400,7 +424,7 @@ footer {
 }
 
 .listafin{
-    color:white;
+    color:black;
 }
 
 .listafin:hover{
@@ -409,11 +433,11 @@ footer {
 
 
 .lista:not(:active) {
-    color:white;
+    color:black;
 }
 
 .correo{
-    color:white;
+    color:black;
 }
 
 .correo:hover{
@@ -421,7 +445,7 @@ footer {
 }
 
 .whatsapp{
-    color:white;
+    color:black;
 }
 
 .whatsapp:hover{
@@ -429,10 +453,10 @@ footer {
 }
 
 .zonafotica2{
-    border-radius: 100px;
+    border-radius:80px;
     width:150px;
     height:150px;
-    line-height:70px;
+    line-height:75px;
 }
 
 
@@ -482,53 +506,98 @@ footer {
     height: 370px;
   }
   
-  .dots {
-    position: absolute;
-  top: 400px; /* Ajusta la distancia del borde inferior */
-  left: 50%; /* Centra horizontalmente */
-  transform: translateX(-50%); /* Centra horizontalmente */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  }
-  
-  .dots span {
-    background: #ccc;
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    margin: 0 5px;
-  }
-  
-  .dots span.active {
-    background: #333;
-  }
 
-  .orden{
+  .orden-principios{
     display: grid;
-    grid-template-columns: 1fr 1fr ;
-    
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr ; 
   }
 
-  .imagen{
+  .imagen-principios1{
     grid-column: 1;
-    max-width: 100%; /* Ajusta el ancho máximo del contenedor de la imagen */
+    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
     overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+    margin-left:1px;
   }
 
-  .imagen img {
-    width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+  .imagen-principios1 img {
+    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+    position: relative;
+    right:45px;
 }
-
-  .parrafo {
-    grid-column: 2; 
+.parrafo-principios {  
     overflow: hidden;
     /*width:60%;*/
-    text-align: justify;
-    max-width:400px;
-    font-size:large;
+    text-align: center;
+    max-width:600px;
+    font-size:1.4rem;
+    margin-top:15px;
+    margin-left:28px;
+}
+
+.imagen-principios2{
+    grid-column: 2;
+    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+    margin-left:1px;
+  }
+
+  .imagen-principios2 img {
+    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+    position: relative;
+    right:45px;
+}
+
+.imagen-principios3{
+    grid-column: 3;
+    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+    margin-left:1px;
+  }
+
+  .imagen-principios3 img {
+    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+    position: relative;
+    right:45px;
+}
+
+.imagen-principios4{
+    grid-column: 4;
+    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+    margin-left:1px;
+  }
+
+  .imagen-principios4 img {
+    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+    position: relative;
+    right:45px;
     
+}
+
+.imagen-principios5{
+    grid-column: 5;
+    max-width:400px; /* Ajusta el ancho máximo del contenedor de la imagen */
+    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
+    margin-left:1px;
+  }
+
+  .imagen-principios5 img {
+    width:50%; /* Ajusta el ancho de la imagen al 100% del contenedor */
+    height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
+    position: relative;
+    right:45px;
+}
+
+  .parrafo-nosotros {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: justify;
+    max-width:600px;
+    font-size:1.4rem;
 }
 
 
@@ -567,14 +636,7 @@ footer {
     
 }
 /*funciona sin fotos al lado, si se añade abra que modificar el anidamiento en html*/
-.parrafo-servicio {
-    margin-top: 10px; /* Añade un espacio entre los elementos de la lista y los párrafos */
-    
-    margin-left:120px;
-    margin-right:172px;
-    font-size: large;
-    text-align: justify;
-}
+
 
 .orden3{
     display: grid;
@@ -583,30 +645,12 @@ footer {
  
   }
 
-  .imagen3{
-    grid-column: 2;
-    position: relative;
-    right:20%;
-    max-width: 100%; /* Ajusta el ancho máximo del contenedor de la imagen */
-    overflow: hidden; /* Evita que la imagen sobresalga del contenedor */
-    
-  }
 
   .imagen3 img {
     width: 75%; /* Ajusta el ancho de la imagen al 100% del contenedor */
     height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
 }
 
-  .parrafo3 {
-    position: relative;
-    left:27%;
-    grid-column: 1; 
-    overflow: hidden;
-    text-align: justify;
-    max-width:400px;
-    font-size:large;
-    
-}
 
 /* Define la animación */
 @keyframes aparecerDesdeIzquierda {
@@ -624,4 +668,55 @@ footer {
   .imagen img {
     animation: aparecerDesdeIzquierda 1s ease-in-out forwards;
   }
+
+  .contenedor-circulo {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    justify-content: center;
+    align-content: center;
+    position: relative;
+        left:10%;
+    
+  }
   
+  .colaborador {
+    border-radius: 50%;  
+    width: 150px;
+  }
+  
+  .colaborador:nth-child(1) {
+    grid-row: 1;
+    grid-column: 2;
+    background-color: #fff;
+  }
+  
+  .colaborador:nth-child(2) {
+    grid-row: 2;
+    grid-column: 1; 
+    background-color: #fff;
+  }
+  
+  .colaborador:nth-child(3) {
+    grid-row: 2;
+    grid-column: 3;
+    background-color: #fff;
+  }
+  
+  .colaborador:nth-child(4) {
+    grid-row: 3;
+    grid-column: 3;
+    background-color: #fff;
+  }
+  
+  .colaborador:nth-child(5) {
+    grid-row: 3;
+    grid-column: 1;
+    background-color: #fff;
+  } 
+  
+  .colaborador:nth-child(6) {
+    grid-row: 4;
+    grid-column: 2; 
+    background-color: #fff;
+  }

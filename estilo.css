@@ -303,18 +303,8 @@
         width: 250px; 
       }
 
-    .media{
-        display:grid;
-        grid-template-columns: 1fr 1fr;
-        width:100%;
-        margin-bottom:30px;
-    }
-
-
    
-    .afoot{
-        margin:7px;
-    }
+   
 
       form {
         max-width: 400px;
@@ -396,11 +386,20 @@ footer {
         margin-left:60px;
         }
 
+.media{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    width:100%;
+    margin-bottom:30px;
+    margin-top: -250px;
+}
+
 .contacto {
     font-size:1.2rem;;
-    grid-column: 2; 
+    grid-column: 3; 
     margin-right:200px;
-    
+   
 }
 
 .dir {
@@ -409,6 +408,13 @@ footer {
     margin-left:200px;
 }
 
+.otra-columna {
+    grid-column: 2;
+    grid-row: 2;
+    font-size:1.2rem;
+    position: relative;
+    top:180px;
+}
       
 #whatsapp-icon {
     color: green;
@@ -657,6 +663,7 @@ body.modal-open {
 
 .contenedor-circulo {
     display: grid;
+    
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;

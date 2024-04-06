@@ -950,7 +950,7 @@ body.modal-open {
     display: flex;
     flex-direction: column;
     align-items: left;
-    max-height:130vh; 
+    min-height:200vh; 
 }
 .contactoclass{
     margin-left: -10px;
@@ -959,8 +959,8 @@ body.modal-open {
 }
 .media{
     margin-left: -10px;
-    width:10%;
-    
+    width:auto;
+   
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr ;
     margin-bottom:0;
@@ -969,13 +969,13 @@ body.modal-open {
 .dir{
     grid-column: 3;
     position: relative;
-    left:90px;
+    left:-560px;
+    top:500px;
 }
 
 .contacto{
     grid-column: 1;
-    display:inline;
-    
+    display:block;
     position: relative;
     bottom:120px;
     left:90px;
@@ -984,7 +984,8 @@ body.modal-open {
 .otra-columna{
     grid-column: 2;
     position: relative;
-    left:90px;
+    left:-255px;
+    top:480px;
 }
 
   }

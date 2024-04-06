@@ -742,8 +742,7 @@ body.modal-open {
   @media (max-width:768px) {
    
     #container{
-        display:flex;
-        flex-wrap: wrap;
+       width: auto;
     }
 
     .ban{
@@ -751,10 +750,12 @@ body.modal-open {
         margin-left:45px;
     }
     .nav{
-        display: inline-block;
+        display: block;
         margin-left:47px;
         padding: 0;
         width:80%;
+        display:flex;
+        flex-wrap: wrap;
        
     }
     .lista1 li {

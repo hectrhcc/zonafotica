@@ -961,7 +961,7 @@ body.modal-open {
     display: none;
 }
 .colaborador{
-    width: 50%;
+    width: 40%;
     
 }
 .contenedor-contacto{
@@ -969,7 +969,7 @@ body.modal-open {
     flex-direction: column;
     align-items: center;
     margin: 0 auto;
-    min-height:180vh; 
+    min-height:100vh; 
 }
 .contactoclass{
     /*margin-left: -10px;*/

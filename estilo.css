@@ -907,18 +907,19 @@ body.modal-open {
 .contenedor-nosotros{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
 }
 
 .subtitulo-nos{
-    margin-left: -400px;
+    /*margin-left: -400px;*/
+    margin: 0 auto;
 }
 .hr{
     margin-left: -70px;
 }
 .parrafo-nosotros{
-    margin-left: -30px;
-    width: 46%;
+    
+    margin: 0 auto;
     justify-content: center;
 }
 
@@ -939,10 +940,10 @@ body.modal-open {
 
 
 .grid{
-    width: 40%;
+    width: 70%;
     margin-left: 0px;
+    margin: 0 auto;
 }
-
 
 .info{
     display: none;
@@ -976,8 +977,7 @@ body.modal-open {
     
 }
 .media{
-    margin-left: -10px;
-    width:auto;
+    margin: 0 auto;
    
     grid-template-columns: 1fr ;
     grid-template-rows: 1fr ;
@@ -993,7 +993,7 @@ body.modal-open {
 .contacto{
     grid-column: 1;
     display:block;
-    margin: 0 auto;
+    margin: 100px auto;
     
 }
 .otra-columna{

@@ -860,13 +860,13 @@ body.modal-open {
         margin: 0 auto;   
     }
     
-    .contenedor-servicio {
+   /* .contenedor-servicio {
         display: flex;
         flex-direction: column;
         align-items: center;
-        /*margin-left: -35px;*/
+        
         margin: 0 auto;   
-    }
+    }*/
 
     .img13{
         width: 42%;
@@ -924,15 +924,12 @@ body.modal-open {
     justify-content: center;
 }
 
-.contenedor-inicio{
-    width: 60%;
+.contenedor-inicio, .contenedor-inicio2,.contenedor-banco,.contenedor-colaboradores,.contenedor-nosotros,.contenedor-principios,.contenedor-servicio{
+    width: 53%;
+    border:3px solid red;
 }
 
-.contenedor-banco,.contenedor-colaboradores{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 
 .contenedor-circulo{
     /*margin-left: -100px;*/
@@ -1009,6 +1006,6 @@ body.modal-open {
     grid-column: 2;
     margin: 0 auto;
 }
-
+  
 
   }

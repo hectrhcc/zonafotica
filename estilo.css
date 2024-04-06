@@ -752,8 +752,7 @@ body.modal-open {
     }
     
     .ban{ 
- display: block;
-        
+        display: block;
         width: 50%;
         
     }
@@ -786,6 +785,12 @@ body.modal-open {
         font-size: 50%;
         width: auto;
         margin: 0px 0px 0px 6px;
+    }
+
+    footer{
+        display: flex;
+        width: 50%;
+        margin: 0px 0px 0px -50px;
     }
   
   }

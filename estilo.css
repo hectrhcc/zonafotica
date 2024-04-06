@@ -739,7 +739,7 @@ body.modal-open {
     text-align: justify;
 }
 
-  @media (max-width:800px) {
+  @media (max-width:768px) {
    
     #container{
        margin: 0 auto;
@@ -779,7 +779,7 @@ body.modal-open {
     .contenedor-inicio{
         display: flex;
         flex-direction: column;
-        align-items: left;
+        align-items: center;
         margin-top:300px;
         
     }
@@ -788,7 +788,7 @@ body.modal-open {
     }
 
     .inimg{
-        margin-left:-210px;     
+        margin: 0 auto;      
         width: 320px;
         height: auto;
         margin-bottom:-10px;
@@ -813,14 +813,16 @@ body.modal-open {
         
     }
     .inimg2{
-        margin-left:-80px;
+       /* margin-left:-80px;*/
+       margin: 0 auto;   
         width: 25%;
         height: auto;
         padding: 5px;
     }
 
     .inimg3{
-        margin-left:-200px;
+        /*margin-left:-200px;*/
+        margin: 0 auto;   
         width: 35%;
         height: auto;
         margin-bottom:6px;
@@ -829,19 +831,22 @@ body.modal-open {
     .img1, .img2, .img10, .img11, .img12  {
         display: block;
         margin-bottom: 5px;
-        margin-left: 28px;
+        /*margin-left: 28px;*/
+        margin: 0 auto;   
     }
     .img3 {
         display: block;
         margin-bottom: 5px;
-        margin-left: 80px;
+        /*margin-left: 80px;*/
+        margin: 0 auto;   
     }
 
     .img4, .img5{
         display: block;
         margin-bottom: 5px;
         width: 36%;
-        margin-left: 40px;
+        /*margin-left: 40px;*/
+        margin: 0 auto;   
         
     }
 
@@ -849,14 +854,16 @@ body.modal-open {
         display: block;
         margin-bottom: 7px;
         width: 40%;
-        margin-left: 17px;
+        /*margin-left: 17px;*/
+        margin: 0 auto;   
     }
     
     .contenedor-servicio {
         display: flex;
         flex-direction: column;
         align-items: left;
-        margin-left: -35px;
+        /*margin-left: -35px;*/
+        margin: 0 auto;   
     }
 
     .img13{

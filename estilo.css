@@ -742,37 +742,50 @@ body.modal-open {
   @media (max-width:768px) {
    
     #container{
-       border:3px solid yellowgreen;
+       
        overflow: hidden;
     }
-    .ban{
+    .banner{
+        border:3px solid black;
+       display: block;
+       height: auto;
+    }
+    
+    .ban{ 
+ display: block;
         
-        margin: 0 auto;
+        width: 50%;
+        
+    }
+
+    .nav{
         display: block;
+       
+       
     }
     .rrss{
-        position: relative;
-        right:150px;
-        top:280px;
+        margin: 0 auto;
+        border: 3px solid purple;
       
     }
     .zonafotica{
-        margin: 0 auto;  
-       
+        margin: 0 auto;
     }
     .zonafotica0{
-        margin: 350px auto;  
+        margin:350px 0px 0px -200px;  /*arriba der inf izq*/
         
+        width: 50%;
     }
-    .lista1 li {
-        position: relative;
-        top:100px;
-        left:-50px;
+    .lista1{
         display: flex;
-        
-        margin: 0px auto;
-        
-        border: 3px solid yellowgreen;
+        flex-flow: row;
+    }
+
+    .lista1 li {
+        display: flex;
+        border:3px solid blue;
+        font-size: 55%;
+        width: auto;
     }
   
   }

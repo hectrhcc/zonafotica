@@ -739,7 +739,7 @@ body.modal-open {
     text-align: justify;
 }
 
-  @media (max-width:768px) {
+  @media (max-width:800px) {
    
     #container{
        width: auto;

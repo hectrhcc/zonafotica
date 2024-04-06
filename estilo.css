@@ -746,18 +746,18 @@ body.modal-open {
     }
 
     .ban{
+        
         margin: 0 auto;
         /*margin-left:45px;*/
 
     }
     .nav{
-        display: block;
+        display: flex;
 /*        margin-left:47px;*/
         margin: 0 auto;
         padding: 0;
         width:80%;
-        display:flex;
-        flex-wrap: wrap;
+     
        
     }
     .lista1 li {
@@ -780,7 +780,12 @@ body.modal-open {
 
    
     .zonafotica0{
-        margin: 0 auto;     
+        margin: 350px auto;  
+        
+    }
+
+    .zonafotica{
+        margin: 0 auto;  
     }
 
     .inimg{

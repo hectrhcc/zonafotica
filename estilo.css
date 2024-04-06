@@ -789,8 +789,15 @@ body.modal-open {
 
     footer{
         display: flex;
-        width: 50%;
+        width: 60%;
+        margin: 0px 0px 0px -140px;
+    }
+
+    .rrssfoot{
         margin: 0px 0px 0px -50px;
+    }
+    .info{
+        display: none;
     }
   
   }

@@ -746,7 +746,7 @@ body.modal-open {
        overflow: hidden;
     }
     .banner{
-        border:3px solid black;
+        
        display: block;
        height: auto;
     }
@@ -764,12 +764,11 @@ body.modal-open {
        
     }
     .rrss{
-        margin: 0 auto;
-        border: 3px solid purple;
+        margin: -20px 0px 0px 100px;
       
     }
     .zonafotica{
-        margin: 0 auto;
+        margin: 0px 0px 0px 85px;
     }
     .zonafotica0{
         margin:350px 0px 0px -200px;  /*arriba der inf izq*/
@@ -779,13 +778,14 @@ body.modal-open {
     .lista1{
         display: flex;
         flex-flow: row;
+        margin-top: -15px;
     }
 
     .lista1 li {
         display: flex;
-        border:3px solid blue;
-        font-size: 55%;
+        font-size: 52%;
         width: auto;
+        margin: 0px 0px 0px 10px;
     }
   
   }

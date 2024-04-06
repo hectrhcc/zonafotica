@@ -968,7 +968,8 @@ body.modal-open {
 }
 .dir{
     grid-column: 3;
-  
+    position: relative;
+    left:90px;
 }
 
 .contacto{
@@ -982,7 +983,8 @@ body.modal-open {
 }
 .otra-columna{
     grid-column: 2;
-    
+    position: relative;
+    left:90px;
 }
 
   }

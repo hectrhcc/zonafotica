@@ -792,7 +792,7 @@ body.modal-open {
    
     .subtitulo{
         
-        display:flexbox;
+        display:flex;
         flex-wrap: wrap;
         font-weight:100;
         width:35%;
@@ -804,12 +804,10 @@ body.modal-open {
     }
 
     .parrafo-servicios{
-        font-size:90%;
         /*margin-left:30px;*/
         margin: 0 auto;
         margin-top:-5px;
         padding: 5px;
-        width:50%;
         
     }
     .inimg2{
@@ -945,10 +943,12 @@ body.modal-open {
     display: none;
 }
 .zonafotica2{
-    margin-left: -100px;
+    /*margin-left: -100px;*/
+    margin: 0 auto;
 }
 .rrssfoot{
-    margin-left: -5px;
+    /*margin-left: -5px;*/
+    margin: 0 auto;
 }
 .parrafofinal{
     display: none;
@@ -960,11 +960,13 @@ body.modal-open {
 .contenedor-contacto{
     display: flex;
     flex-direction: column;
-    align-items: left;
+    align-items: center;
+    margin: 0 auto;
     min-height:180vh; 
 }
 .contactoclass{
-    margin-left: -10px;
+    /*margin-left: -10px;*/
+    margin: 0 auto;
     width:45%;
     
 }
@@ -978,25 +980,21 @@ body.modal-open {
     padding-bottom: 0;
 }
 .dir{
+    display: none;
     grid-column: 3;
-    position: relative;
-    left:-560px;
-    top:500px;
+    margin: 0 auto;
 }
 
 .contacto{
     grid-column: 1;
     display:block;
-    position: relative;
-    bottom:120px;
-    left:90px;
-    margin-bottom:0px;
+    margin: 0 auto;
+    
 }
 .otra-columna{
+    display: none;
     grid-column: 2;
-    position: relative;
-    left:-255px;
-    top:480px;
+    margin: 0 auto;
 }
 
   }

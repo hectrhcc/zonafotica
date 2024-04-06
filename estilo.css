@@ -995,8 +995,9 @@ body.modal-open {
 .contacto{
     grid-column: 1;
     display:block;
-    margin: 80 auto;
+    margin: 0 auto;
     padding: 0;
+    margin-top:20px;
     margin-bottom: 0;
     
 }

@@ -771,7 +771,7 @@ body.modal-open {
         margin: 0px 0px 0px 85px;
     }
     .zonafotica0{
-        margin:350px 0px 0px -200px;  /*arriba der inf izq*/
+        margin:150px 0px 0px -200px;  /*arriba der inf izq*/
         
         width: 50%;
     }
@@ -783,7 +783,7 @@ body.modal-open {
 
     .lista1 li {
         display: flex;
-        font-size: 51%;
+        font-size: 50%;
         width: auto;
         margin: 0px 0px 0px 10px;
     }

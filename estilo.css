@@ -750,13 +750,29 @@ body.modal-open {
         margin: 0 auto;
         display: block;
     }
+    .rrss{
+        position: relative;
+        right:150px;
+        top:280px;
+      
+    }
     .zonafotica{
         margin: 0 auto;  
-        
+       
     }
     .zonafotica0{
         margin: 350px auto;  
         
+    }
+    .lista1 li {
+        position: relative;
+        top:100px;
+        left:-50px;
+        display: flex;
+        
+        margin: 0px auto;
+        
+        border: 3px solid yellowgreen;
     }
   
   }

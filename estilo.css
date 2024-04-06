@@ -924,7 +924,7 @@ body.modal-open {
 }
 
 .contenedor-inicio{
-    width: 50%;
+    width: 60%;
 }
 
 .contenedor-banco,.contenedor-colaboradores{
@@ -954,7 +954,7 @@ body.modal-open {
 }
 .zonafotica2{
     /*margin-left: -100px;*/
-    margin: 0 auto;
+    margin-left:-60px;
 }
 .rrssfoot{
     /*margin-left: -5px;*/
@@ -1007,6 +1007,9 @@ body.modal-open {
     display: none;
     grid-column: 2;
     margin: 0 auto;
+}
+footer{
+    width: 60%;
 }
 
   }

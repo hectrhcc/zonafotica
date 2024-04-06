@@ -756,7 +756,7 @@ body.modal-open {
 /*        margin-left:47px;*/
         margin: 0 auto;
         padding: 0;
-        width:80%;
+        width:90%;
      
        
     }
@@ -796,8 +796,6 @@ body.modal-open {
     }
    
     .subtitulo{
-        
-        
         font-weight:100;
         width:35%;
         font-size:30px;
@@ -923,6 +921,10 @@ body.modal-open {
     
     margin: 0 auto;
     justify-content: center;
+}
+
+.contenedor-inicio{
+    width: 50%;
 }
 
 .contenedor-banco,.contenedor-colaboradores{

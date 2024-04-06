@@ -790,14 +790,16 @@ body.modal-open {
     footer{
         display: flex;
         width: 60%;
-        margin: 0px 0px 0px -140px;
+        margin: 0px 0px 0px -110px;
     }
 
     .rrssfoot{
-        margin: 0px 0px 0px -50px;
+        margin: 0px 0px 0px 0px;
     }
     .info{
         display: none;
     }
-  
+  .parrafofinal{
+    display: none;
+  }
   }

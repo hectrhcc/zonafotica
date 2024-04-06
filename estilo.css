@@ -764,7 +764,7 @@ body.modal-open {
        
     }
     .rrss{
-        margin: -20px 0px 0px 100px;
+        margin: -20px 0px 0px 130px;
       
     }
     .zonafotica{
@@ -783,7 +783,7 @@ body.modal-open {
 
     .lista1 li {
         display: flex;
-        font-size: 52%;
+        font-size: 51%;
         width: auto;
         margin: 0px 0px 0px 10px;
     }

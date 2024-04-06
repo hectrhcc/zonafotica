@@ -742,7 +742,7 @@ body.modal-open {
   @media (max-width:800px) {
    
     #container{
-       width: auto;
+       margin: 0 auto;
     }
 
     .ban{
@@ -766,7 +766,7 @@ body.modal-open {
     .banner{
         display: flex;
         flex-wrap: wrap;
-        flex-direction: row;
+        flex-direction: column;
         margin: 0 auto;
         padding: 0;
         
@@ -784,7 +784,7 @@ body.modal-open {
         
     }
     .zonafotica0{
-        margin-left:-180px;       
+        margin: 0 auto;     
     }
 
     .inimg{
@@ -951,7 +951,7 @@ body.modal-open {
     display: flex;
     flex-direction: column;
     align-items: left;
-    min-height:200vh; 
+    min-height:180vh; 
 }
 .contactoclass{
     margin-left: -10px;

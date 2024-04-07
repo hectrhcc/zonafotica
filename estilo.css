@@ -802,4 +802,62 @@ body.modal-open {
   .parrafofinal{
     display: none;
   }
+
+  .contenedor-contacto{
+    width: 60%;
+    margin: 0px 0px 0px -150px;
+    font-size: small;
+  }
+
+  .contactoclass{
+    width: 58%;
+  }
+  .contacto{
+    position: relative;
+    bottom: -250px;
+  }
+  .dir{
+    display: none;
+  }
+  .otra-columna{
+    display: none;
+  }
+.contenedor-banco{
+    width:60%;
+    margin: 0px 0px 0px -138px;
+}
+
+.grid{
+    width: 50%;
+}
+
+.contenedor-nosotros{
+    width:60%;
+    margin: 0px 0px 0px -172px;
+}
+
+.parrafo-nosotros{
+    width:55%;
+    font-size:95%;
+    
+}
+
+.contenedor-principios{
+    width:60%;
+    margin: 0px 0px 0px -150px;
+  
+}
+.orden-principios{
+    display: flex;
+    flex-flow: column;
+}
+.imagen-principios{
+    width: 50%;
+    
+    margin: 0px 0px 0px 150px;
+}
+
+
+}
+
   }

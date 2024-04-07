@@ -857,7 +857,53 @@ body.modal-open {
     margin: 0px 0px 0px 150px;
 }
 
+.contenedor-colaboradores{
+    width:60%;
+    margin: 0px 0px 0px -120px;
+  
+}
+.contenedor-circulo{
+    width:60%;
+}
+
+
+.contenedor-inicio2{
+    width:60%;
+    margin: 0px 0px 0px -120px;
+}
+
+.parrafo-servicios{
+    width:58%;
+    font-size:95%;
+    margin-left:112px;
+}
+
+.inimg, .inimg3{
+    width:40%;
+    height: auto;
+}
+
+.subtitulo{
+    font-weight:400;
+    font-size:110%;
+    margin-left: -39px;
+}
+
+.inimg2{
+    width: 36%;
+    height: auto;
+}
+
+.colab{
+    font-size:90%;
+}
+
+.contenedor-servicio{
+    width:60%;
+    position: relative;
+    left: -160px;
+}
 
 }
 
-  }
+  

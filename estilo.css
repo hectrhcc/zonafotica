@@ -797,7 +797,7 @@ body.modal-open {
 
     .nav{
         display: block;
-       width: 99%;
+       width: 60%;
        margin-left:-2px;
        border:3px solid green;
     }
@@ -821,7 +821,7 @@ body.modal-open {
     .lista1 li {
         display: flex;
         font-size:50%;
-        width:40%;
+        width:60%;
         margin: 0px 0px 0px 6px;
         border:3px solid blue;
     }

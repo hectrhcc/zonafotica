@@ -2,8 +2,6 @@
         margin: 0px;
         padding: 0px;   
     }
-
-
     body{
         color:#014960;
         font-family: 'Open Sans', sans-serif;
@@ -45,7 +43,6 @@
     .nav{
         width:60%;
     }
-
 
     .lista1 li{
         float:inline-start; 
@@ -100,7 +97,6 @@
         cursor: pointer;
     }
     
-    
     .rrss-icon i{
         font-size: 21px;
         line-height: 25px;
@@ -131,6 +127,7 @@
         font-size: 40px;
         text-align: center;
     }
+
     .subtitulo-azul{
         font-weight: 400;
         color:#014960;
@@ -138,7 +135,6 @@
         font-size: 40px;
         text-align: center;
     }
-
     
     .contenedor-inicio{
         padding:80px 30px 30px 20px;
@@ -152,6 +148,7 @@
 	background-position:center ;
     color:black;
     }
+
     .contenedor-inicio2{
         padding:80px 30px 30px 20px;
         min-height:77vh; 
@@ -161,9 +158,9 @@
 	background-size: cover;
 	background-attachment:fixed; 
 	background-position:center ;
-    color:black;
-    
+    color:black;    
     }
+
     .contenedor-servicio{
         padding:105px 60px 60px 60px;
         min-height:77vh; 
@@ -182,12 +179,12 @@
         padding-top:90px;
         min-height:77vh; 
         background-image: url(./imagenes/fondos/fondomar.jpeg   );
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment:fixed; 
-	background-position:center ;
-    opacity: 0.9;
-    color:black;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment:fixed; 
+	    background-position:center ;
+        opacity: 0.9;
+        color:black;
     }
 
     .contenedor-nosotros{
@@ -196,10 +193,10 @@
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment:fixed; 
-	background-position:center ;
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment:fixed; 
+	    background-position:center ;
     }
 
 
@@ -217,7 +214,6 @@
         text-align: center;
     }
     
-
     .video-container {
         background-image: url(./imagenes/fondos/fondomar5.jpg);
         background-repeat: no-repeat;
@@ -243,6 +239,8 @@
         background-attachment:fixed; 
         background-position:center ;*/
     }
+
+    .tabla{}
     .video-container video {
         max-width: 100%; 
         max-height: 90%; 
@@ -257,14 +255,12 @@
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); /* Degradado */
     }
 
-    
     .grid {
         display: grid;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 10px;
         width: 80%; /* Ajusta el ancho de la cuadrícula al 65% */
         margin: 0 auto; /* Centra la cuadrícula horizontalmente */
-
     }
     
     .grid img {
@@ -281,7 +277,6 @@
         cursor:pointer;
     }
     
-
     .grid1{
         grid-column: 1; 
         
@@ -295,16 +290,11 @@
         
     }
     
-   
-
     .pie{
         position: relative;
         right:110px;
         width: 250px; 
       }
-
-   
-   
 
       form {
         max-width: 400px;
@@ -318,8 +308,6 @@
       textarea {
         height: 100px;
       }
-
-   
 
 input[type="submit"] {
     background-color: #014960;
@@ -335,8 +323,7 @@ input[type="submit"] {
     width:auto;
     text-align: justify;
     margin-left: 20px;
-    font-size:large;  
-    
+    font-size:large;      
 }
 
 .correo-column {
@@ -355,7 +342,6 @@ input[type="submit"] {
 
 .correo-item p {
     margin: 5px 0; /* Espacio entre las líneas */
-   
 }
 
 footer { 
@@ -379,8 +365,8 @@ footer {
         justify-content:flex-start;
         padding-top: 50px;
         line-height:45px;
-        
     }
+
 .info{
         grid-column: 3;
         margin-left:60px;
@@ -399,7 +385,6 @@ footer {
     font-size:1.2rem;;
     grid-column: 3; 
     margin-right:200px;
-   
 }
 
 .dir {
@@ -472,7 +457,6 @@ footer {
     height:160px;
 }
 
-
 .rrss-icon2{
     display: inline-block;
     margin-left: 10px;
@@ -494,7 +478,6 @@ footer {
     font-size: 21px;
     line-height: 20px;
 }
-
   
   .parrafo-principios {  
     overflow: hidden;
@@ -511,7 +494,6 @@ footer {
    margin-top:20px;
   }
 
-
 .imagen-principios {
     display:flex; /* Usa flexbox para centrar verticalmente */
     flex-flow: row;
@@ -520,13 +502,10 @@ footer {
     margin: -20px;
 }
 
-
-
 .imagen-principios img {
     max-width:90%; /* Ajusta el ancho máximo de la imagen */
     height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
 }
-
 
   .parrafo-nosotros {
     margin: 0 auto;
@@ -536,14 +515,13 @@ footer {
     font-size:1.4rem;
 }
 
-
-
 .serv{
     display: grid;
     grid-template-rows: auto 1fr;
     gap:1px;
     border:3px solid black;
 }
+
 .imgserv{
     grid-row: 2;
     width: 50%; /* La imagen ocupará todo el ancho de la primera columna */
@@ -600,11 +578,9 @@ footer {
     line-height: 1.5;
     text-align: center;
     color:white;
-    
-    
+    font-size:75%;    
 }
   
-
   .hr {
     border-top: 1px solid white; 
     width: 55%; 
@@ -718,34 +694,26 @@ body.modal-open {
     position: relative;
     left:28%;
   }
-  .inimg2{
-    position: relative;
-    left:12%;
-  }
 
   .inimg3{
     position: relative;
     left:31%;
   }
 
-  .inimgx {
+.fila-img {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: row;
-    flex-flow: row;
     position: relative;
     left:10%;
-    
     width:80%;
 }
 
-.inimgx img {
+.fila-img img {
     margin-top: 30px;
     margin-right:10px; 
 }
-
-  
 
 .contactoclass{
     margin:0 auto; 
@@ -755,6 +723,60 @@ body.modal-open {
     text-align: justify;
 }
 
+.titulo-colab{
+    text-align: center;
+    color: #fff;
+}
+
+.fila-tabla{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.info-tabla{
+    color: #06676F;
+    display: block;
+    font-weight: bold;
+    font-size: larger;
+    margin-right: 1px;
+    margin-top: 12px;
+}
+
+.info-tabla2{
+    color: #06676F;
+    font-weight: bold;
+    display: block;
+    font-size:80%;
+    margin-right:3px;
+}
+
+.logo-gob{
+    margin-top: 14px;
+}
+
+.tabla{
+    margin:  0 auto;
+    border-collapse: collapse; /* Fusiona los bordes de las celdas */
+}
+
+.tabla th{
+    text-align: center;
+    width:150px;
+    background-color: #00A4AE;
+    color: #fff;
+    
+}
+
+.tabla td{
+    /*border:1px solid  #00a4ae;*/
+    text-align: center;
+    border-right:2px solid  #65d8df;
+    border-bottom:2px solid  #65d8df;
+    color: #000;
+}
+
   @media (max-width:768px) {
    
     #container{
@@ -762,7 +784,6 @@ body.modal-open {
        overflow: hidden;
     }
     .banner{
-        
        display: block;
        height: auto;
     }
@@ -775,8 +796,8 @@ body.modal-open {
 
     .nav{
         display: block;
-       
-       
+       width: 99%;
+       margin-left:10px;
     }
     .rrss{
         margin: -20px 0px 0px 130px;
@@ -786,8 +807,7 @@ body.modal-open {
         margin: 0px 0px 0px 85px;
     }
     .zonafotica0{
-        margin:150px 0px 0px -200px;  /*arriba der inf izq*/
-        
+        margin:150px 0px 0px -200px;  /*arriba der inf izq*/        
         width: 50%;
     }
     .lista1{
@@ -855,13 +875,11 @@ body.modal-open {
 .parrafo-nosotros{
     width:55%;
     font-size:95%;
-    
 }
 
 .contenedor-principios{
     width:60%;
     margin: 0px 0px 0px -125px;
-  
 }
 .orden-principios{
     display: flex;
@@ -869,7 +887,6 @@ body.modal-open {
 }
 .imagen-principios{
     width: 50%;
-    
     margin: 0px 0px 0px 150px;
 }
 
@@ -920,12 +937,23 @@ body.modal-open {
     left: -160px;
 }
 
-.inimgx{
+ .fila-img{
     display: grid;
     grid-template-columns: auto;
+    gap:5px;
+  }
+
+  .img13 {
+    height: auto;
+    align-items: center;
+    margin: 0 auto;
+  }
+
+  .tabla{
+    margin: 0 auto;
+    width:50%;
+    font-size: smaller;
   }
 
 
 }
-
-  

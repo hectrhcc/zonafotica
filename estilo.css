@@ -728,6 +728,25 @@ body.modal-open {
     left:31%;
   }
 
+  .inimgx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-flow: row;
+    position: relative;
+    left:10%;
+    
+    width:80%;
+}
+
+.inimgx img {
+    margin-top: 30px;
+    margin-right:10px; 
+}
+
+  
+
 .contactoclass{
     margin:0 auto; 
     padding-top: 10px; 
@@ -900,6 +919,12 @@ body.modal-open {
     position: relative;
     left: -160px;
 }
+
+.inimgx{
+    display: grid;
+    grid-template-columns: auto;
+  }
+
 
 }
 

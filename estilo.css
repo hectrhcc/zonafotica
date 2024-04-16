@@ -508,20 +508,22 @@ footer {
   .orden-principios{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr ;
-    
+   margin-top:20px;
   }
 
 
 .imagen-principios {
-    grid-column: span 1; /* Ocupa una columna completa */
-    display: flex; /* Usa flexbox para centrar verticalmente */
+    display:flex; /* Usa flexbox para centrar verticalmente */
+    flex-flow: row;
     justify-content: center; /* Centra horizontalmente */
-    margin-left: 1px;
+    padding: 0px;
+    margin: -20px;
 }
 
 
+
 .imagen-principios img {
-    max-width: 50%; /* Ajusta el ancho máximo de la imagen */
+    max-width:90%; /* Ajusta el ancho máximo de la imagen */
     height: auto; /* Ajusta automáticamente la altura proporcionalmente al ancho */
 }
 
@@ -566,10 +568,6 @@ footer {
     width:95%;
     color:white;
 }
-
-
-
-
 
 @keyframes aparecerDesdeIzquierda {
     from {
@@ -664,7 +662,6 @@ body.modal-open {
 
 .contenedor-circulo {
     display: grid;
-    
     grid-template-columns: repeat(3, 1fr); 
     grid-template-rows: repeat(3, 1fr);
     justify-content: center;
@@ -844,7 +841,7 @@ body.modal-open {
 
 .contenedor-principios{
     width:60%;
-    margin: 0px 0px 0px -150px;
+    margin: 0px 0px 0px -125px;
   
 }
 .orden-principios{
@@ -886,7 +883,7 @@ body.modal-open {
 .subtitulo{
     font-weight:400;
     font-size:110%;
-    margin-left: -39px;
+    margin: 50px 0px 20px -18px;
 }
 
 .inimg2{

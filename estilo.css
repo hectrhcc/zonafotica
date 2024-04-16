@@ -790,14 +790,15 @@ body.modal-open {
     
     .ban{ 
         display: block;
-        width: 50%;
+        width:60%;
+        
         
     }
 
     .nav{
         display: block;
        width: 99%;
-       margin-left:10px;
+       margin-left:-2px;
     }
     .rrss{
         margin: -20px 0px 0px 130px;

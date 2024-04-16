@@ -819,9 +819,10 @@ body.modal-open {
 
     .lista1 li {
         display: flex;
-        font-size:40%;
-        width: auto;
-        
+        font-size:50%;
+        width:80%;
+        margin: 0px 0px 0px 6px;
+        border:3px solid blue;
     }
 
     footer{

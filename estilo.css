@@ -797,8 +797,8 @@ body.modal-open {
 
     .nav{
         display: block;
-       width: 60%;
-       margin-left:-2px;
+       width:100%;
+       margin-left:-10px;
        border:3px solid green;
     }
     .rrss{
@@ -814,13 +814,14 @@ body.modal-open {
     }
     .lista1{
         display: flex;
-        flex-flow: row;
+        flex-direction: row;
         margin-top: -15px;
+        
     }
 
     .lista1 li {
         display: flex;
-        font-size:50%;
+        font-size:60%;
         width:60%;
         margin: 0px 0px 0px 6px;
         border:3px solid blue;

@@ -797,8 +797,9 @@ body.modal-open {
 
     .nav{
         display: block;
-       width: 59%;
+       width: 99%;
        margin-left:-2px;
+       border:3px solid green;
     }
     .rrss{
         margin: -20px 0px 0px 130px;
@@ -820,7 +821,7 @@ body.modal-open {
     .lista1 li {
         display: flex;
         font-size:50%;
-        width:100%;
+        width:40%;
         margin: 0px 0px 0px 6px;
         border:3px solid blue;
     }

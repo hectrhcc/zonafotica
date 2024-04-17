@@ -967,7 +967,9 @@ body.modal-open {
 ul li.parrafo-referencias,.parrafo-referencias{
     font-size:80%;
 }
-
+ul {
+    list-style-type: disc;
+}
  .fila-img{
     display: grid;
     grid-template-columns: auto;

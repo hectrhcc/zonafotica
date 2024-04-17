@@ -791,14 +791,15 @@ body.modal-open {
     .ban{ 
         display: block;
         width:60%;
-        margin-bottom: 0px;
+        height:100px;
+        border: 3px solid red;
     }
 
     .nav{
         display: block;
        width:100%;
        margin-left:0px;
-     
+     border: 3px solid greenyellow;
 
     }
     .rrss{

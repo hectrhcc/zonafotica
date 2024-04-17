@@ -797,12 +797,12 @@ body.modal-open {
     .nav{
         display: block;
        width:100%;
-       margin-left:0px;
-     border: 3px solid greenyellow;
+       margin-left:50px;
+     
 
     }
     .rrss{
-        margin: 10px 0px 0px 130px;
+        margin: 15px 0px 0px 130px;
       
     }
     .zonafotica{
@@ -817,7 +817,7 @@ body.modal-open {
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: -15px;
-        border: 3px solid red;
+        
     }
 
     .lista1 li {

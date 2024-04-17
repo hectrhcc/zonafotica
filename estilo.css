@@ -778,16 +778,15 @@ body.modal-open {
 }
 
 .contenedor-referencias{
-    width:55%;
+    width:60%;
     font-size:95%;
     margin: 0 auto;
     text-align: justify;
 }
-.parrafo-referencias{
+ul li.parrafo-referencias{
     font-style: italic;
     color: #888;
     margin:22px;
-
 }
 
 
@@ -964,11 +963,11 @@ body.modal-open {
     position: relative;
     left: -315px;
 }
-ul li.parrafo-referencias,.parrafo-referencias{
+ul li.parrafo-referencias{
     font-size:80%;
 }
 ul {
-    list-style-type: disc;
+    list-style-type: disc;  
 }
  .fila-img{
     display: grid;

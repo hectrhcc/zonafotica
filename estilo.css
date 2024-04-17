@@ -959,9 +959,9 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-referencias{
-    width:40%;
+    width:36%;
     position: relative;
-    left: -310px;
+    left: -314px;
 }
 ul li.parrafo-referencias{
     font-size:81%;

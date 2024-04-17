@@ -964,8 +964,8 @@ body.modal-open {
     position: relative;
     left: -315px;
 }
-.parrafo-referencias{
-    font-size:70%;
+ul li.parrafo-referencias,.parrafo-referencias{
+    font-size:80%;
 }
 
  .fila-img{

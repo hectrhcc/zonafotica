@@ -777,6 +777,21 @@ body.modal-open {
     color: #000;
 }
 
+.contenedor-referencias{
+    width:55%;
+    font-size:95%;
+    margin: 0 auto;
+    text-align: justify;
+}
+.parrafo-referencias{
+    font-style: italic;
+    color: #888;
+    margin:22px;
+
+}
+
+
+
   @media (max-width:768px) {
    
     #container{
@@ -942,6 +957,15 @@ body.modal-open {
     width:60%;
     position: relative;
     left: -160px;
+}
+
+.contenedor-referencias{
+    width:40%;
+    position: relative;
+    left: -315px;
+}
+.parrafo-referencias{
+    font-size:70%;
 }
 
  .fila-img{

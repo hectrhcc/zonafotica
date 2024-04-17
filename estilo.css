@@ -961,10 +961,10 @@ ul li.parrafo-referencias{
 .contenedor-referencias{
     width:40%;
     position: relative;
-    left: -306px;
+    left: -310px;
 }
 ul li.parrafo-referencias{
-    font-size:70%;
+    font-size:81%;
 }
 ul {
     list-style-type: disc;  

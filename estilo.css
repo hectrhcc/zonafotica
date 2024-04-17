@@ -962,5 +962,11 @@ body.modal-open {
     font-size: smaller;
   }
 
+  .info-tabla{
+    font-size: small;
+  }
+  .info-tabla2{
+    display: none;
+}
 
 }

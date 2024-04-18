@@ -592,30 +592,35 @@ footer {
     display: none; /* El modal está oculto por defecto */
     position: fixed;
     z-index: 1000;
-    left: 25%;
+    left: 30%;
     top: 22.5%;
-    width: 60%;
+    width:43%;
     height: auto;
     background-color: rgba(0, 0, 0, 0.7); /* Fondo opaco */
-    overflow: auto;
+    overflow: hidden;
 }
 
 .modal-content {
     display: block;
+    position: relative;
+    top:0px;
     margin: auto;
     max-width: 100%; /* Tamaño máximo de la imagen */
     max-height: 100%; /* Altura máxima de la imagen */
+    z-index: 1;
+    overflow:hidden;
 }
 
 .close {
     position: absolute;
-    top: -15px;
+    top: -20px;
     right:5px;
-    color: #fff;
+    color: red;
     font-size: 50px;
     font-weight: bold;
     transition: color 0.3s ease;
     cursor: pointer;
+    z-index: 10;
 }
 
 .close:hover,
@@ -789,7 +794,16 @@ ul li.parrafo-referencias{
     margin:22px;
 }
 
+.microalga1, .microalga2, .microalga3, .microalga4, .microalga5, .microalga6, .microalga7, .microalga8, .microalga9, .microalga10, .microalga11, .microalga12, .microalga13{
+    cursor: pointer;
+}
 
+.micronociva1, .micronociva2, .micronociva3, .micronociva4, .micronociva5, .micronociva6, .micronociva7, .micronociva8, .micronociva9, .micronociva10, .micronociva11, .micronociva12, .micronociva13{
+    display: none;
+    width: 550px;
+    height: auto;
+    border: 3px solid red;
+}
 
   @media (max-width:768px) {
    

@@ -802,7 +802,6 @@ ul li.parrafo-referencias{
     display: none;
     width: 550px;
     height: auto;
-    border: 3px solid red;
 }
 
   @media (max-width:768px) {
@@ -1006,6 +1005,12 @@ ul {
   }
   .info-tabla2{
     display: none;
+}
+
+.modal{
+    top: 50%;
+    left:0%;
+    width:100%;
 }
 
 }

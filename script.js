@@ -3,8 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     const microalga1 = document.querySelector('.microalga1');
     const imagen2 = document.querySelector('.micronociva2');
     const microalga2 = document.querySelector('.microalga2');
-    const imagen3 = document.querySelector('.micronociva3');
-    const microalga3 = document.querySelector('.microalga3');
+   // const imagen3 = document.querySelector('.micronociva3');
+   // const microalga3 = document.querySelector('.microalga3');
     const imagen4 = document.querySelector('.micronociva4');
     const microalga4 = document.querySelector('.microalga4');
     const imagen5 = document.querySelector('.micronociva5');
@@ -45,13 +45,13 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.style.zIndex= '1';
     document.body.classList.add('modal-open'); 
     })
-    microalga3.addEventListener('click',()=>{
+    /*microalga3.addEventListener('click',()=>{
     modal.style.display = 'block'; 
     modalImg.src = imagen3.src; 
     imagen3.style.zIndex = '10';
     modal.style.zIndex= '1';
     document.body.classList.add('modal-open'); 
-    })
+    })*/
     microalga4.addEventListener('click',()=>{
     modal.style.display = 'block'; 
     modalImg.src = imagen4.src; 
@@ -173,4 +173,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });*/
     
+    let logo = document.querySelector('.zonafotica0');
+    logo.style.animation = 'emergeLogo 2s forwards';
 });

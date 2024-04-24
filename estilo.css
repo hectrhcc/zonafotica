@@ -641,6 +641,15 @@ body.modal-open {
     margin: 0 auto;
 }
 
+@keyframes emergeLogo {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 .contenedor-circulo {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 

@@ -365,11 +365,17 @@ footer {
         justify-content:flex-start;
         padding-top: 50px;
         line-height:45px;
+        position: relative;
+        left:-50px;
+        
     }
 
 .info{
         grid-column: 3;
         margin-left:60px;
+        
+        position: relative;
+        left:-90px;
         }
 
 .media{
@@ -460,7 +466,7 @@ footer {
 .parrafofinal{
     position: relative;
     top:-55px;
-    left:-30px;
+    left:-95px;
     font-size: small;
 }
 .rrss-icon2{

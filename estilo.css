@@ -457,6 +457,12 @@ footer {
     height:160px;
 }
 
+.parrafofinal{
+    position: relative;
+    top:-40px;
+    left:-30px;
+    font-size: small;
+}
 .rrss-icon2{
     display: inline-block;
     margin-left: 10px;
@@ -1020,6 +1026,9 @@ ul {
     top: 50%;
     left:0%;
     width:100%;
+}
+.relleno{
+    display: none;
 }
 
 }

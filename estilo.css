@@ -876,16 +876,36 @@ ul li.parrafo-referencias{
         display: flex;
         width: 60%;
         margin: 0px 0px 0px -110px;
+        flex-direction: column;
     }
 
+    .logo{
+        
+        margin:0 auto;
+        position: relative;
+        left:-70px;
+    }
     .rrssfoot{
-        margin: 0px 0px 0px 0px;
+        
+        margin:0 auto;
+        position: relative;
+        top:-40px;
+        left:-35px;
     }
     .info{
-        display: none;
+        
+        margin:0 auto;
+        position: relative;
+        top:10px;
+        left:-30px;
+        text-align: center;
     }
   .parrafofinal{
-    display: none;
+    
+    margin:0 auto;
+    position: relative;
+    top:-174px;
+    left:-30px;
   }
 
   .contenedor-contacto{

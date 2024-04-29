@@ -762,6 +762,8 @@ body.modal-open {
 }
 
 .info-tabla{
+    position: relative;
+    left:50px;
     color: #06676F;
     display: block;
     font-weight: bold;
@@ -776,10 +778,19 @@ body.modal-open {
     display: block;
     font-size:80%;
     margin-right:3px;
+    position: relative;
+    left:50px;
 }
 
 .logo-gob{
     margin-top: 14px;
+    position: relative;
+    left:50px;
+}
+
+.zonatabla{
+    position: relative;
+    left:50px;
 }
 
 .tabla{
@@ -1041,11 +1052,19 @@ ul {
     font-size: smaller;
   }
 
+  .contenedor-banco{
+    min-height:27vh; 
+  }
   .info-tabla{
     font-size: small;
+    position: relative;
+    left:-30px;
+    top:15px;
+    width:170%;
+
   }
   .info-tabla2{
-    display: none;
+    display:none;
 }
 
 .modal{
@@ -1057,4 +1076,119 @@ ul {
     display: none;
 }
 
+}
+
+/*@media (width>=768px), (width<=1440px) {*/
+@media (min-width:768px) and (max-width:1439px){
+  .nav{
+    width: auto;   
+    position: relative;
+    right:0px;
+    font-size:85%;
+  }
+
+  .lista1{
+    position: relative;
+    left:79px;
+  }
+  .rrss{
+    position: relative;
+    right:300px;
+    top:55px;
+  }
+
+  .banner{
+    width: 115%;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    right:200px;
+   
+  }
+  #container{
+    position: relative;
+    width: 115%;
+  }
+
+  .zonafotica{
+    position: relative;
+    right:-189px;
+    margin: 0;
+    padding: 0;
+  }
+
+  .contenedor-inicio{
+   margin: 0 auto;
+   position: relative;
+   top:0px;
+   right:112px;
+  }
+  .inimg{
+    margin: 0 auto;
+    margin-left: -40px;
+  }
+  .contenedor-inicio2{
+    position: relative;
+    top:-82px;
+    right:152px;
+    width:100%;
+  }
+
+  .parrafo-servicios{
+    width:69%;
+  }
+  
+  .subtitulo{
+    font-size: xx-large;
+  }
+
+  .contenedor-servicio{
+    position: relative;
+    top:-82px;
+    right:122px;
+   
+  }
+  .contenedor-principios{
+    position: relative;
+    top:-82px;
+    right:0px;
+    width:72%;
+    min-height:27vh; 
+  }
+
+  .contenedor-nosotros{
+    position: relative;
+    top:-82px;
+    right:122px;
+  }
+
+  .contenedor-banco{
+    position: relative;
+    top:-82px;
+    right:122px;
+    min-height:27vh; 
+  }
+  .info-tabla{
+    position: relative;
+    left:-61px;
+    width:139%;
+  }
+  .info-tabla2{
+    position: relative;
+    left:-60px;
+    width:140%;
+  }
+
+ 
+ .contenedor-colaboradores, .contenedor-referencias, .contenedor-contacto{
+    position: relative;
+    top:-82px;
+    right:122px;
+  }
+  footer{
+    position: relative;
+    top:-82px;
+    right:152px;
+    margin-bottom: -81px;
+  }
 }

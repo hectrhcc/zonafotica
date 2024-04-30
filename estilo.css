@@ -1141,8 +1141,8 @@ ul li.parrafo-referencias{
   
   }
   .imagen-principios{
-    width: 50%;
-    margin: 0px 0px 0px 150px;
+    width: 100%;
+    
     
   }
   
@@ -1307,12 +1307,12 @@ ul li.parrafo-referencias{
     display: flex;
     flex-direction: row;
     position: relative;
-    right:200px;
+    right:150px;
    
   }
   #container{
     position: relative;
-    width: 115%;
+    
   }
   
   .zonafotica{
@@ -1326,16 +1326,16 @@ ul li.parrafo-referencias{
    margin: 0 auto;
    position: relative;
    top:0px;
-   right:112px;
+   
   }
   .inimg{
     margin: 0 auto;
-    margin-left: -40px;
+    
   }
   .contenedor-inicio2{
     position: relative;
     top:-82px;
-    right:152px;
+    
     width:100%;
   }
   
@@ -1350,13 +1350,13 @@ ul li.parrafo-referencias{
   .contenedor-servicio{
     position: relative;
     top:-82px;
-    right:122px;
+   
    
   }
   .contenedor-principios{
     position: relative;
     top:-82px;
-    right:0px;
+    left:140px;
     width:72%;
     min-height:27vh; 
   }
@@ -1364,13 +1364,13 @@ ul li.parrafo-referencias{
   .contenedor-nosotros{
     position: relative;
     top:-82px;
-    right:122px;
+   
   }
   
   .contenedor-banco{
     position: relative;
     top:-82px;
-    right:122px;
+    
     min-height:27vh; 
   }
   .info-tabla{
@@ -1387,7 +1387,7 @@ ul li.parrafo-referencias{
   .contenedor-colaboradores{
     position: relative;
     top:-82px;
-    right:122px;
+    
     width: 100%;
     min-height:106vh; 
   }
@@ -1396,14 +1396,14 @@ ul li.parrafo-referencias{
   .contenedor-referencias{
     position: relative;
     top:-82px;
-    right:2px;
+   
     min-height:200vh; 
-    width:98%;
+    width:90%;
   }
   .contenedor-contacto{
     position: relative;
     top:-82px;
-    right:2px;
+    
     min-height:70vh; 
     width:100%;
   }
@@ -1416,7 +1416,7 @@ ul li.parrafo-referencias{
   .parrafofinal{
     position: relative;
     left:15px;
-    width:100%;
+    width:80%;
   }
   .info{
     position: relative;

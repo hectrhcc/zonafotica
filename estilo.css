@@ -999,7 +999,7 @@ ul li.parrafo-referencias{
     
     .ban{ 
         display: block;
-        width:60%;
+        width:767px;
         height:100px;
     }
 
@@ -1008,16 +1008,16 @@ ul li.parrafo-referencias{
         width:767px;
        position: relative;
        left:20%;
-       border:3px solid red;
+       
     }
     .rrss{
         position: relative;
-        left:43%;
+        left:33%;
     }
     .zonafotica{
         position: relative;
         left:60%;
-        border:3px solid red;
+        
         
     }
     .zonafotica0{
@@ -1043,9 +1043,9 @@ ul li.parrafo-referencias{
 
     footer{
         display: flex;
-        width:767px;
-        
+        min-width:149%;
         flex-direction: column;
+        position: relative;
     }
 
     .logo{
@@ -1059,7 +1059,7 @@ ul li.parrafo-referencias{
         margin:0 auto;
         position: relative;
         top:-40px;
-        left:-35px;
+        left:-29px;
     }
     .info{
         
@@ -1080,17 +1080,20 @@ ul li.parrafo-referencias{
   .contenedor-inicio, .contenedor-inicio2, .contenedor-servicio {
     position: relative;
     left:0%;
-    width:767px;
+    min-width:109%;
+    
     
   }
 
-
+.contacto{
+    position: relative;
+    left:-25%;
+}
   .contenedor-contacto{
-    width:767px;
-    margin: 0px 0px 0px -150px;
+    min-width:109%;
     font-size: small;
     position: relative;
-    left:0px;
+    left:150px;
   }
 
 
@@ -1110,7 +1113,7 @@ ul li.parrafo-referencias{
     display: none;
   }
 .contenedor-banco{
-    width:767px;
+    min-width:109%;
 }
 
 .grid{
@@ -1118,7 +1121,7 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-nosotros{
-    width:767px;
+    min-width:109%;
 }
 
 .parrafo-nosotros{
@@ -1127,7 +1130,7 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-principios{
-    width:767px;
+    min-width:109%;
     
 }
 .orden-principios{
@@ -1142,8 +1145,8 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-colaboradores{
-    width:767px;
-    min-height:140vh;
+    min-width:109%;
+    min-height:150vh;
 }
 .contenedor-circulo{
     width:60%;
@@ -1177,9 +1180,9 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-referencias{
-    width:767px;
+    min-width:109%;
     position: relative;
-    left: -4px;
+    left:130px;
 }
 ul li.parrafo-referencias{
     font-size:81%;
@@ -1385,7 +1388,7 @@ ul {
     top:-82px;
     right:122px;
     width: 100%;
-    min-height:96vh; 
+    min-height:106vh; 
   }
 
 

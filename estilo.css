@@ -990,10 +990,7 @@ ul li.parrafo-referencias{
         left:-50px;
         top: 580px;
     }
-    #container{
-       
-       overflow: hidden;
-    }
+
     .banner{
        display: block;
        height: auto;
@@ -1008,20 +1005,21 @@ ul li.parrafo-referencias{
     .nav{
         display: block;
        width:100%;
-       margin-left:50px;
-     
-
+       position: relative;
+       left:20%;
     }
     .rrss{
-        margin: 15px 0px 0px 130px;
-      
+        position: relative;
+        left:43%;
     }
     .zonafotica{
-        margin: 0px 0px 0px 85px;
+        position: relative;
+        left:60%;
+        
     }
     .zonafotica0{
-        margin:150px 0px 0px -200px;  /*arriba der inf izq*/        
-        width: 50%;
+        position: relative;
+        left:10%;
     }
     .lista1{
         display: flex;
@@ -1076,6 +1074,16 @@ ul li.parrafo-referencias{
     left:-30px;
   }
 
+  .contenedor-inicio{
+    position: relative;
+    left:0%;
+    width: 110%;
+  }
+  .contenedor-inicio2{
+    position: relative;
+    left:0%;
+    width: 110%;
+  }
   .contenedor-contacto{
     width:160%;
     margin: 0px 0px 0px -150px;
@@ -1123,12 +1131,14 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-principios{
-    width:60%;
-    margin: 0px 0px 0px -125px;
+    width:110%;
+    
 }
 .orden-principios{
     display: flex;
     flex-flow: column;
+    position: relative;
+    left: 14%;
 }
 .imagen-principios{
     width: 50%;
@@ -1138,22 +1148,18 @@ ul li.parrafo-referencias{
 .contenedor-colaboradores{
     width:66%;
     margin: 0px 0px 0px -120px;
-    min-height:150vh;
+    min-height:190vh;
 }
 .contenedor-circulo{
     width:60%;
 }
 
 
-.contenedor-inicio2{
-    width:60%;
-    margin: 0px 0px 0px -120px;
-}
+
 
 .parrafo-servicios{
-    width:58%;
-    font-size:95%;
-    margin-left:112px;
+    width: auto;
+    
 }
 
 .inimg, .inimg3{
@@ -1162,8 +1168,7 @@ ul li.parrafo-referencias{
 }
 
 .subtitulo{
-    font-weight:400;
-    font-size:110%;
+    font-size:xx-large;
     margin: 50px 0px 20px -18px;
 }
 
@@ -1177,9 +1182,9 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-servicio{
-    width:60%;
+    width:110%;
     position: relative;
-    left: -160px;
+    
 }
 
 .contenedor-referencias{

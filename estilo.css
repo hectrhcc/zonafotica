@@ -1001,13 +1001,13 @@ ul li.parrafo-referencias{
     
     .ban{ 
         display: block;
-        width:767px;
+        
         height:100px;
     }
   
     .nav{
         display: block;
-        width:767px;
+        
        position: relative;
        left:20%;
        
@@ -1045,7 +1045,7 @@ ul li.parrafo-referencias{
   
     footer{
         display: flex;
-        min-width:149%;
+
         flex-direction: column;
         position: relative;
     }
@@ -1082,7 +1082,7 @@ ul li.parrafo-referencias{
   .contenedor-inicio, .contenedor-inicio2, .contenedor-servicio {
     position: relative;
     left:0%;
-    min-width:109%;
+    
     
     
   }
@@ -1092,7 +1092,7 @@ ul li.parrafo-referencias{
     left:-25%;
   }
   .contenedor-contacto{
-    min-width:109%;
+    
     font-size: small;
     position: relative;
     left:150px;
@@ -1115,7 +1115,7 @@ ul li.parrafo-referencias{
     display: none;
   }
   .contenedor-banco{
-    min-width:109%;
+    
   }
   
   .grid{
@@ -1123,7 +1123,7 @@ ul li.parrafo-referencias{
   }
   
   .contenedor-nosotros{
-    min-width:109%;
+    
   }
   
   .parrafo-nosotros{
@@ -1132,7 +1132,7 @@ ul li.parrafo-referencias{
   }
   
   .contenedor-principios{
-    min-width:109%;
+    
     
   }
   .orden-principios{
@@ -1147,7 +1147,7 @@ ul li.parrafo-referencias{
   }
   
   .contenedor-colaboradores{
-    min-width:109%;
+    
     min-height:150vh;
   }
   .contenedor-circulo{
@@ -1182,7 +1182,7 @@ ul li.parrafo-referencias{
   }
   
   .contenedor-referencias{
-    min-width:109%;
+    
     position: relative;
     left:130px;
   }

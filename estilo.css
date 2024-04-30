@@ -6,12 +6,10 @@
     body{
         color:#333;
         font-family: 'Open Sans', sans-serif;
-        
         scrollbar-width: none;
         border:3px solid crimson;
         width:100%;   
         display:grid;
-               
         margin: 0 auto;
         margin-top: 0; 
     }
@@ -138,6 +136,7 @@
     
     .contenedor-inicio{
         padding:80px 30px 30px 20px;
+        /*arriba, derecha, abajo e izquierda*/
         min-height:77vh; 
         margin-top:80px;
         width: 100%;
@@ -165,7 +164,7 @@
 
     .contenedor-servicio{
       border:3px solid red;
- padding:80px 60px 60px 60px;
+ padding:80px 30px 60px 20px;
         min-height:77vh; 
         color: aliceblue;
         text-align: center;/*revisar*/
@@ -180,7 +179,7 @@
 
     .contenedor-colaboradores{
         transition: background-image 0.5s ease;
-        padding-top:90px;
+        padding:90px 30px 60px 20px;
         min-height:140vh; 
         background-image: url(./imagenes/fondos/fondomar.jpeg   );
 	    background-repeat: no-repeat;
@@ -194,7 +193,7 @@
 
     .contenedor-nosotros{
         color: aliceblue;
-        padding:80px 60px 60px 60px;
+        padding:80px 30px 60px 20px;
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
@@ -216,15 +215,15 @@
  
     .contenedor-contacto{
         color: black;
-        padding:111px 30px 22px 30px;
+        padding:111px 30px 22px 20px;
         min-height:60vh;
         text-align: center;
         width:100%;
     }
     
     .contenedor-banco{
-        padding:112px 30px 30px 20px;
-        min-height:107vh; 
+        padding:112px 30px 20px 20px;
+        min-height:67vh; 
         opacity: 0.9;
         text-align: justify;
         width:100%;   
@@ -794,7 +793,7 @@ body.modal-open {
 }
 
 .contenedor-referencias{
-    width:60%;
+    width:100%;
     font-size:95%;
     margin: 0 auto;
     text-align: justify;
@@ -816,7 +815,13 @@ ul li.parrafo-referencias{
 }
 
 @media (max-width:768px) {
-  
+    body{
+      background-color: #000;
+      width: 100%;
+      border:5px solid green
+      
+    }
+
     .image-holder .colaborador:nth-child(1){
         position: relative;
         left:-50px;
@@ -863,17 +868,22 @@ ul li.parrafo-referencias{
     .banner{
        display: block;
        height: auto;
+       border: 3px solid blue;
+       width: 100%;
+       margin-top:0;
+       padding-top:0;
+       top:0px;
     }
     
     .ban{ 
         display: block;
-        
+        border: 3px solid crimson;
         height:100px;
     }
   
     .nav{
         display: block;
-        
+        border: 3px solid crimson;
        position: relative;
        left:300px;
        
@@ -881,24 +891,26 @@ ul li.parrafo-referencias{
     .rrss{
         position: relative;
         left:480px;
+        border: 3px solid crimson;
     }
     .zonafotica{
         position: relative;
         left:400px;
-        
+        border: 3px solid crimson;
         
     }
     .zonafotica0{
         position: relative;
         left:10px;
         top:300px;
+        border: 3px solid crimson;
     }
     .lista1{
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         margin-top: -15px;
-        
+        border: 3px solid crimson;
     }
   
     .lista1 li {
@@ -906,7 +918,7 @@ ul li.parrafo-referencias{
         font-size:60%;
         width:20%;
         height:20px;
-
+        border: 3px solid crimson;
     }
   
     .logo{
@@ -914,6 +926,7 @@ ul li.parrafo-referencias{
         margin:0 auto;
         position: relative;
         left:0px;
+        border:3px solid red;
     }
     .rrssfoot{
         
@@ -938,9 +951,11 @@ ul li.parrafo-referencias{
     left:40px;
   }
   
-  .contenedor-inicio, .contenedor-inicio2, .contenedor-servicio {
-    position: relative;
+  .contenedor-inicio, .contenedor-inicio2, .contenedor-servicio, .contenedor-nosotros {
+    display: block;
+    width: 100%;
     left:0%;
+    border:3px solid red;
   }
   
   .contacto{
@@ -952,6 +967,7 @@ ul li.parrafo-referencias{
     font-size: small;
     position: relative;
     left:10px;
+    border:3px solid red;
   }
   
   
@@ -974,7 +990,6 @@ ul li.parrafo-referencias{
   .grid{
     width: 50%;
   }
-  
   
   .parrafo-nosotros{
     width:55%;
@@ -1000,6 +1015,7 @@ ul li.parrafo-referencias{
   
   .contenedor-colaboradores{
     min-height:150vh;
+    border:3px solid red;
   }
   
   .parrafo-servicios{
@@ -1027,9 +1043,10 @@ ul li.parrafo-referencias{
   }
   
   .contenedor-referencias{
-    
+    border:3px solid red;
     position: relative;
     left:20px;
+
   }
   ul li.parrafo-referencias{
     font-size:81%;
@@ -1057,6 +1074,7 @@ ul li.parrafo-referencias{
   
   .contenedor-banco{
     min-height:27vh; 
+    border:3px solid red;
   }
   .info-tabla{
     font-size: small;
@@ -1080,10 +1098,11 @@ ul li.parrafo-referencias{
   }
   
   footer{
-    display: flex;
-
+    
+    border:3px solid red;
     flex-direction: column;
-    position: relative;
+    display: block;
+    width: 100%;
 }
 
   }

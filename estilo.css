@@ -12,9 +12,10 @@
 
     #container{
         display:grid;
-        width:100%;
+        min-width:100%;
         margin: 0 auto;
         margin-top: 0; 
+        
     }
 
   .banner{
@@ -141,6 +142,7 @@
         padding:80px 30px 30px 20px;
         min-height:77vh; 
         margin-top:80px;
+        width: 100%;
         text-align: justify;
         background-image: url(./imagenes/fondos/fondomar8.jpg);
 	background-repeat: no-repeat;
@@ -947,296 +949,8 @@ ul li.parrafo-referencias{
     height: auto;
 }
 
-  @media (max-width:768px) {
-   
-    .image-holder .colaborador:nth-child(1){
-        position: relative;
-        left:-50px;
-        top:-10px;
-    }
-    .image-holder .colaborador:nth-child(2){
-        transform: translateX(70%);
-    }
-    
-    .image-holder .colaborador:nth-child(3){
-        position: relative;
-        left:-90px;
-        top:10px;
-    }
-    
-    .image-holder .colaborador:nth-child(4)
-    {
-        position: relative;
-        left:-50px;
-        top:130px;
-    }
-    .image-holder .colaborador:nth-child(5) {
-        position: relative;
-        left:121px;
-        top:30px;
-    }
-    .image-holder .colaborador:nth-child(6){
-        position: relative;
-        left:-50px;
-        top:400px;
-    }
-    .image-holder .colaborador:nth-child(7){
-        display: none;
-    } 
-    .image-holder .colaborador:nth-child(8){
-        display: none;
-    }
-    .image-holder .colaborador:nth-child(9){
-        position: relative;
-        left:-50px;
-        top: 580px;
-    }
-
-    .banner{
-       display: block;
-       height: auto;
-    }
-    
-    .ban{ 
-        display: block;
-        width:767px;
-        height:100px;
-    }
-
-    .nav{
-        display: block;
-        width:767px;
-       position: relative;
-       left:20%;
-       
-    }
-    .rrss{
-        position: relative;
-        left:33%;
-    }
-    .zonafotica{
-        position: relative;
-        left:60%;
-        
-        
-    }
-    .zonafotica0{
-        position: relative;
-        left:10%;
-    }
-    .lista1{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        margin-top: -15px;
-        
-    }
-
-    .lista1 li {
-        display: flex;
-        font-size:60%;
-        width:20%;
-        height:20px;
-        margin: 0px 0px 0px 6px;
-        padding: 0px 0px 0px 0px;
-    }
-
-    footer{
-        display: flex;
-        min-width:149%;
-        flex-direction: column;
-        position: relative;
-    }
-
-    .logo{
-        
-        margin:0 auto;
-        position: relative;
-        left:-70px;
-    }
-    .rrssfoot{
-        
-        margin:0 auto;
-        position: relative;
-        top:-40px;
-        left:-29px;
-    }
-    .info{
-        
-        margin:0 auto;
-        position: relative;
-        top:10px;
-        left:-30px;
-        text-align: center;
-    }
-  .parrafofinal{
-    
-    margin:0 auto;
-    position: relative;
-    top:-174px;
-    left:-30px;
-  }
-
-  .contenedor-inicio, .contenedor-inicio2, .contenedor-servicio {
-    position: relative;
-    left:0%;
-    min-width:109%;
-    
-    
-  }
-
-.contacto{
-    position: relative;
-    left:-25%;
-}
-  .contenedor-contacto{
-    min-width:109%;
-    font-size: small;
-    position: relative;
-    left:150px;
-  }
-
-
-  
-
-  .contactoclass{
-    width: 58%;
-  }
-  .contacto{
-    position: relative;
-    bottom: -250px;
-  }
-  .dir{
-    display: none;
-  }
-  .otra-columna{
-    display: none;
-  }
-.contenedor-banco{
-    min-width:109%;
-}
-
-.grid{
-    width: 50%;
-}
-
-.contenedor-nosotros{
-    min-width:109%;
-}
-
-.parrafo-nosotros{
-    width:55%;
-    font-size:95%;
-}
-
-.contenedor-principios{
-    min-width:109%;
-    
-}
-.orden-principios{
-    display: flex;
-    flex-flow: column;
-    position: relative;
-    left: 14%;
-}
-.imagen-principios{
-    width: 50%;
-    margin: 0px 0px 0px 150px;
-}
-
-.contenedor-colaboradores{
-    min-width:109%;
-    min-height:150vh;
-}
-.contenedor-circulo{
-    width:60%;
-}
-
-
-
-
-.parrafo-servicios{
-    width: auto;
-    
-}
-
-.inimg, .inimg3{
-    width:40%;
-    height: auto;
-}
-
-.subtitulo{
-    font-size:xx-large;
-    margin: 50px 0px 20px -18px;
-}
-
-.inimg2{
-    width: 36%;
-    height: auto;
-}
-
-.colab{
-    font-size:90%;
-}
-
-.contenedor-referencias{
-    min-width:109%;
-    position: relative;
-    left:130px;
-}
-ul li.parrafo-referencias{
-    font-size:81%;
-}
-ul {
-    list-style-type: disc;  
-}
- .fila-img{
-    display: grid;
-    grid-template-columns: auto;
-    gap:5px;
-  }
-
-  .img13 {
-    height: auto;
-    align-items: center;
-    margin: 0 auto;
-  }
-
-  .tabla{
-    margin: 0 auto;
-    width:50%;
-    font-size: smaller;
-  }
-
-  .contenedor-banco{
-    min-height:27vh; 
-  }
-  .info-tabla{
-    font-size: small;
-    position: relative;
-    left:-30px;
-    top:15px;
-    width:170%;
-
-  }
-  .info-tabla2{
-    display:none;
-}
-
-.modal{
-    top: 50%;
-    left:0%;
-    width:100%;
-}
-.relleno{
-    display: none;
-}
-
-}
-
-/*@media (width>=768px), (width<=1440px) {*/
 @media (min-width:768px) and (max-width:1439px){
-  
+
     .image-holder .colaborador:nth-child(1){
         position: relative;
         left:-30px;
@@ -1262,7 +976,7 @@ ul {
         position: relative;
         left:131px;
         top:-120px;
-
+  
     }
     .image-holder .colaborador:nth-child(6){
         position: relative;
@@ -1290,7 +1004,7 @@ ul {
     right:0px;
     font-size:85%;
   }
-
+  
   .lista1{
     position: relative;
     left:79px;
@@ -1300,7 +1014,7 @@ ul {
     right:300px;
     top:55px;
   }
-
+  
   .banner{
     width: 115%;
     display: flex;
@@ -1313,14 +1027,14 @@ ul {
     position: relative;
     width: 115%;
   }
-
+  
   .zonafotica{
     position: relative;
     right:-189px;
     margin: 0;
     padding: 0;
   }
-
+  
   .contenedor-inicio{
    margin: 0 auto;
    position: relative;
@@ -1337,7 +1051,7 @@ ul {
     right:152px;
     width:100%;
   }
-
+  
   .parrafo-servicios{
     width:69%;
   }
@@ -1345,7 +1059,7 @@ ul {
   .subtitulo{
     font-size: xx-large;
   }
-
+  
   .contenedor-servicio{
     position: relative;
     top:-82px;
@@ -1359,13 +1073,13 @@ ul {
     width:72%;
     min-height:27vh; 
   }
-
+  
   .contenedor-nosotros{
     position: relative;
     top:-82px;
     right:122px;
   }
-
+  
   .contenedor-banco{
     position: relative;
     top:-82px;
@@ -1382,7 +1096,7 @@ ul {
     left:-60px;
     width:140%;
   }
-
+  
   .contenedor-colaboradores{
     position: relative;
     top:-82px;
@@ -1390,8 +1104,8 @@ ul {
     width: 100%;
     min-height:106vh; 
   }
-
-
+  
+  
   .contenedor-referencias{
     position: relative;
     top:-82px;
@@ -1410,7 +1124,7 @@ ul {
     position: relative;
     top:0px;
     right:2px;
-
+  
   }
   .parrafofinal{
     position: relative;
@@ -1426,4 +1140,4 @@ ul {
     position: relative;
     left:0px;
   }
-}
+  }

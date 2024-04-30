@@ -869,7 +869,7 @@ ul li.parrafo-referencias{
     margin-top:0;
     padding-top:0;
     top:0px;
-    font-size: large;
+  
  }
  
  .ban{ 
@@ -912,7 +912,7 @@ ul li.parrafo-referencias{
      display: flex; 
      width:30%;
      height:20px;
-     
+     font-size: 70%;
  }
 
  .logo{

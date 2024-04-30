@@ -1009,22 +1009,23 @@ ul li.parrafo-referencias{
         display: block;
         
        position: relative;
-       left:20%;
+       left:300px;
        
     }
     .rrss{
         position: relative;
-        left:33%;
+        left:480px;
     }
     .zonafotica{
         position: relative;
-        left:60%;
+        left:400px;
         
         
     }
     .zonafotica0{
         position: relative;
-        left:10%;
+        left:10px;
+        top:300px;
     }
     .lista1{
         display: flex;
@@ -1051,24 +1052,24 @@ ul li.parrafo-referencias{
     }
   
     .logo{
-        
+
         margin:0 auto;
         position: relative;
-        left:-70px;
+        left:0px;
     }
     .rrssfoot{
         
         margin:0 auto;
         position: relative;
         top:-40px;
-        left:-29px;
+        left:40px;
     }
     .info{
         
         margin:0 auto;
         position: relative;
         top:10px;
-        left:-30px;
+        left:33px;
         text-align: center;
     }
   .parrafofinal{
@@ -1076,26 +1077,23 @@ ul li.parrafo-referencias{
     margin:0 auto;
     position: relative;
     top:-174px;
-    left:-30px;
+    left:40px;
   }
   
   .contenedor-inicio, .contenedor-inicio2, .contenedor-servicio {
     position: relative;
     left:0%;
-    
-    
-    
   }
   
   .contacto{
     position: relative;
-    left:-25%;
+    left:-160px;
+    
   }
   .contenedor-contacto{
-    
     font-size: small;
     position: relative;
-    left:150px;
+    left:10px;
   }
   
   
@@ -1132,18 +1130,20 @@ ul li.parrafo-referencias{
   }
   
   .contenedor-principios{
-    
+    border:3px solid red;
     
   }
   .orden-principios{
     display: flex;
     flex-flow: column;
     position: relative;
-    left: 14%;
+    left: 10%;
+  
   }
   .imagen-principios{
     width: 50%;
     margin: 0px 0px 0px 150px;
+    
   }
   
   .contenedor-colaboradores{
@@ -1184,7 +1184,7 @@ ul li.parrafo-referencias{
   .contenedor-referencias{
     
     position: relative;
-    left:130px;
+    left:20px;
   }
   ul li.parrafo-referencias{
     font-size:81%;

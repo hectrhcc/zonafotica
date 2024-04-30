@@ -1040,8 +1040,7 @@ ul li.parrafo-referencias{
         font-size:60%;
         width:20%;
         height:20px;
-        margin: 0px 0px 0px 6px;
-        padding: 0px 0px 0px 0px;
+
     }
   
     footer{
@@ -1087,7 +1086,7 @@ ul li.parrafo-referencias{
   
   .contacto{
     position: relative;
-    left:-160px;
+    
     
   }
   .contenedor-contacto{
@@ -1169,7 +1168,7 @@ ul li.parrafo-referencias{
   
   .subtitulo{
     font-size:xx-large;
-    margin: 50px 0px 20px -18px;
+    
   }
   
   .inimg2{
@@ -1216,7 +1215,7 @@ ul li.parrafo-referencias{
   .info-tabla{
     font-size: small;
     position: relative;
-    left:-30px;
+    left:30px;
     top:15px;
     width:170%;
   

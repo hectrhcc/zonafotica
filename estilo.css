@@ -6,19 +6,14 @@
     body{
         color:#333;
         font-family: 'Open Sans', sans-serif;
-        overflow-x: hidden;
+        
         scrollbar-width: none;
         border:3px solid crimson;
-        
+        width:100%;   
         display:grid;
                
         margin: 0 auto;
         margin-top: 0; 
-    }
-
-    #container{
-       
-        
     }
 
   .banner{
@@ -165,10 +160,12 @@
 	background-attachment:fixed; 
 	background-position:center ;
     color:black;    
+    width:100%;   
     }
 
     .contenedor-servicio{
-        padding:105px 60px 60px 60px;
+      border:3px solid red;
+ padding:80px 60px 60px 60px;
         min-height:77vh; 
         color: aliceblue;
         text-align: center;/*revisar*/
@@ -178,6 +175,7 @@
 	    background-attachment:fixed; 
 	    background-position:center ;
         opacity: 0.9;
+        width:100%;   
     }
 
     .contenedor-colaboradores{
@@ -191,11 +189,12 @@
 	    background-position:center ;
         opacity: 0.9;
         color:black;
+        width:100%;   
     }
 
     .contenedor-nosotros{
         color: aliceblue;
-        padding:111px 60px 60px 60px;
+        padding:80px 60px 60px 60px;
         min-height:70vh;
         text-align: center;
         background-image: url(./imagenes/fondos/fondomar4.jpg);
@@ -203,6 +202,7 @@
 	    background-size: cover;
 	    background-attachment:fixed; 
 	    background-position:center ;
+      width:100%;   
     }
 
 
@@ -211,6 +211,7 @@
         min-height:60vh; 
         color: black;
         text-align: justify;
+        width:100%;   
     }
  
     .contenedor-contacto{
@@ -226,6 +227,7 @@
         min-height:107vh; 
         opacity: 0.9;
         text-align: justify;
+        width:100%;   
     }
     
     .degradado {
@@ -236,16 +238,6 @@
         height: 50px; /* Altura del degradado, ajusta según sea necesario */
         background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.5)); /* Degradado */
     }
-
-    .grid {
-        display: grid;
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        gap: 10px;
-        width: 80%; /* Ajusta el ancho de la cuadrícula al 65% */
-        margin: 0 auto; /* Centra la cuadrícula horizontalmente */
-    }
-    
-   
     
     .pie{
         position: relative;

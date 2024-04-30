@@ -1,7 +1,8 @@
-    *{
-        margin: 0px;
-        padding: 0px;   
-    }
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+  }
     body{
         color:#014960;
         font-family: 'Open Sans', sans-serif;
@@ -1004,9 +1005,10 @@ ul li.parrafo-referencias{
 
     .nav{
         display: block;
-       width:100%;
+        width:767px;
        position: relative;
        left:20%;
+       border:3px solid red;
     }
     .rrss{
         position: relative;
@@ -1015,6 +1017,7 @@ ul li.parrafo-referencias{
     .zonafotica{
         position: relative;
         left:60%;
+        border:3px solid red;
         
     }
     .zonafotica0{
@@ -1040,8 +1043,8 @@ ul li.parrafo-referencias{
 
     footer{
         display: flex;
-        width: 60%;
-        margin: 0px 0px 0px -110px;
+        width:767px;
+        
         flex-direction: column;
     }
 
@@ -1074,29 +1077,24 @@ ul li.parrafo-referencias{
     left:-30px;
   }
 
-  .contenedor-inicio{
+  .contenedor-inicio, .contenedor-inicio2, .contenedor-servicio {
     position: relative;
     left:0%;
-    width: 110%;
+    width:767px;
+    
   }
-  .contenedor-inicio2{
-    position: relative;
-    left:0%;
-    width: 110%;
-  }
+
+
   .contenedor-contacto{
-    width:160%;
+    width:767px;
     margin: 0px 0px 0px -150px;
     font-size: small;
     position: relative;
     left:0px;
   }
 
-  footer{
-    position: relative;
-    left:70px;
-    width:120%;
-  }
+
+  
 
   .contactoclass{
     width: 58%;
@@ -1112,8 +1110,7 @@ ul li.parrafo-referencias{
     display: none;
   }
 .contenedor-banco{
-    width:60%;
-    margin: 0px 0px 0px -138px;
+    width:767px;
 }
 
 .grid{
@@ -1121,8 +1118,7 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-nosotros{
-    width:60%;
-    margin: 0px 0px 0px -172px;
+    width:767px;
 }
 
 .parrafo-nosotros{
@@ -1131,7 +1127,7 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-principios{
-    width:110%;
+    width:767px;
     
 }
 .orden-principios{
@@ -1146,9 +1142,8 @@ ul li.parrafo-referencias{
 }
 
 .contenedor-colaboradores{
-    width:66%;
-    margin: 0px 0px 0px -120px;
-    min-height:190vh;
+    width:767px;
+    min-height:140vh;
 }
 .contenedor-circulo{
     width:60%;
@@ -1181,14 +1176,8 @@ ul li.parrafo-referencias{
     font-size:90%;
 }
 
-.contenedor-servicio{
-    width:110%;
-    position: relative;
-    
-}
-
 .contenedor-referencias{
-    width:95%;
+    width:767px;
     position: relative;
     left: -4px;
 }

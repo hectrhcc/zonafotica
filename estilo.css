@@ -850,7 +850,7 @@ ul li.parrafo-referencias{
     position: relative;
     top:-55px;
     left:415px;
-
+    max-width: 70%;
     font-size: small;
 }
 
@@ -869,29 +869,28 @@ ul li.parrafo-referencias{
     margin-top:0;
     padding-top:0;
     top:0px;
+    font-size: x-large;
  }
  
  .ban{ 
      display: block;
-     
      height:100px;
  }
 
  .nav{
      display: block;
-     
     position: relative;
-    left:300px;
+    left:230px;
     
  }
  .rrss{
      position: relative;
-     left:480px;
+     left:430px;
      
  }
  .zonafotica{
      position: relative;
-     left:400px;
+     left:350px;
      
      
  }
@@ -910,9 +909,8 @@ ul li.parrafo-referencias{
  }
 
  .lista1 li {
-     display: flex;
-     font-size:60%;
-     width:20%;
+     display: flex; 
+     width:30%;
      height:20px;
      
  }
@@ -929,9 +927,11 @@ ul li.parrafo-referencias{
   font-size:xx-large;
   
  }
- .subtitulo{
-  font-size:x-small;
-  
+ .subtitulo-externo{
+  font-size:larger;
+  color: white;
+  display: flex;
+  justify-content: center;
  }
 
  .contenedor-colaboradores{
@@ -1053,8 +1053,7 @@ ul li.parrafo-referencias{
   display: block;
   width: 100%;
   left:0%;
-  
-  min-height:87vh; 
+  min-height:94vh; 
 }
 
  .contenedor-inicio2, .contenedor-servicio, .contenedor-nosotros {

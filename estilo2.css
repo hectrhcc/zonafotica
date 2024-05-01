@@ -476,14 +476,12 @@ left:10%;
     margin-top: 10px;
 }
 
-.inimg20,.inimg30,.inimg40,.inimg70 {width:70%; height:auto;
+.inimg20,.inimg30,.inimg40,.inimg50, .inimg60, .inimg70 {width:70%; height:auto;
     margin: 0 auto;
     display: flex;
     justify-content: center;}
 
-    .inimg50,.inimg60{
-        display: inline;
-    }
+    
 
 .subtitulotrans{
     font-weight: 400;
@@ -561,6 +559,12 @@ footer ul li a:hover{
 
 
 @media (min-width:1000px) {
+
+    .inimg50,.inimg60{
+        display: inline;
+        width:43%;
+        height: auto;
+    }
     .imagen-principios img {
         width:18%; 
         height: auto; 
@@ -592,8 +596,7 @@ footer ul li a:hover{
     .inimg{
         padding-bottom:30px;
     }
-    .inimg20,.inimg30,.inimg40,.inimg50,.inimg60,.inimg70 {width:30%; height:auto;
-
+    .inimg20,.inimg30,.inimg40,.inimg70 {width:30%; height:auto;
         display: flex;
         justify-content: flex-start;}
 

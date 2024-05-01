@@ -173,6 +173,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });*/
     
-    let logo = document.querySelector('.zonafotica0');
+    let logo = document.querySelector('.logomovimiento');
     logo.style.animation = 'emergeLogo 2s forwards';
 });

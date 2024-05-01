@@ -4,6 +4,10 @@
     box-sizing: border-box;
   }
   
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
 nav img{
     display: block;
     margin: 0 auto;
@@ -14,7 +18,6 @@ nav{
     display: flex;
     flex-direction: column;
     align-items: center;
-    border:2px blue solid;
 }
 
 ul li {
@@ -49,4 +52,476 @@ ul li a{
    text-align: center;
     text-decoration: none;
     color: cadetblue;
+}
+
+footer{
+    background-color: #014960;
+    display: flex;
+    flex-direction: column;
+}
+
+.zonafoticafooter{
+    width: 100px;
+    height:100px;
+    border-radius: 50%;
+    margin: 7px auto;
+}
+
+.rrssfooter{
+    margin: 5px auto;
+    
+}
+
+footer ul{
+    margin-top:18px;
+}
+
+.parrafofinal{
+    color:white;
+    margin: 7px auto;
+}
+
+.rrss-icon2{
+    margin:0 5px;
+    border-radius: 50%;
+   display: inline-block;
+   width: 22px;
+   height:22px;
+   position: relative;
+   
+   text-align: center;
+    text-decoration: none;
+    color: cadetblue;
+}
+
+.subtitulo-negro{
+    font-weight: 400;
+    color:#000;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.subtitulo-azul{
+    font-weight: 400;
+    color:#014960;
+    margin-bottom: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+#whatsapp-icon {
+    color: green;
+}
+
+#email-icon {
+    color:#ED1E35;
+}
+
+h3{
+    color:#0FA5DE;
+    font-size: large;
+    
+}
+
+.seccion9{
+    margin:8px;
+    font-size:88%;
+}
+
+.contacto{
+    text-align: justify;
+}
+
+.contacto-centro{
+    text-align: center;
+    margin-bottom:13px;
+}
+
+ul li.parrafo-referencias{
+    font-style: italic;
+    color: #888;
+    text-align:justify;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    list-style:disc;
+
+}
+
+.seccion8{
+    overflow-x: hidden;
+    font-size:91%;
+    margin:10px;
+}
+
+.subtitulo-externo{
+    font-size:medium;
+    color: white;
+    display: flex;
+    justify-content: center;
+   }
+
+
+   .row{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    
+    justify-content: center;
+  }
+  .row > * {
+    margin-right:0px;
+    margin-bottom:0px;
+  }
+  .colaboradorcentrado{
+    display: flex;
+    margin: 0 auto;
+    justify-content: center;
+  }
+
+  .titulo-colab{
+    text-align: center;
+    color: #fff;
+}
+
+.seccion7{
+        transition: background-image 0.5s ease;
+        background-image: url(./imagenes/fondos/fondomar.jpeg   );
+	    background-repeat: no-repeat;
+	    background-size: cover;
+	    background-attachment:fixed; 
+	    background-position:center ;
+        opacity: 0.9;
+        color:black;
+        padding-top:10px ;
+}
+
+.colaborador {
+    width: 150px;
+    height: 150px;
+    line-height: 1.5;
+    text-align: center;
+    color:beige;
+    font-size:75%;    
+}
+
+
+  /* Estilos para el modal */
+  .modal {
+    display: none; /* El modal está oculto por defecto */
+    position: fixed;
+    z-index: 1000;
+    left: 30%;
+    top: 22.5%;
+    width:43%;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0.7); /* Fondo opaco */
+    overflow: hidden;
+}
+
+.modal-content {
+    display: block;
+    position: relative;
+    top:0px;
+    margin: auto;
+    max-width: 100%; /* Tamaño máximo de la imagen */
+    max-height: 100%; /* Altura máxima de la imagen */
+    z-index: 1;
+    overflow:hidden;
+}
+
+.close {
+    position: absolute;
+    top: -20px;
+    right:5px;
+    color: red;
+    font-size: 50px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+    cursor: pointer;
+    z-index: 10;
+}
+
+.close:hover,
+.close:focus {
+    color: #999;
+}
+
+
+/* Estilos para oscurecer el fondo */
+body.modal-open {
+    overflow: hidden; /* Evita el desplazamiento del cuerpo */
+    background-color: rgba(0, 0, 0, 0.6); /* Color de fondo oscuro */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.seccion6{
+    margin: 10px;
+    font-size: 70%;
+}
+
+.fila-tabla{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.info-tabla{
+    position: relative;
+    left:30px;
+    top:6px;
+    font-size: 90%;
+    color: #06676F;
+    display: block;
+    font-weight: bold;
+    
+    width: 9rem;
+
+}
+
+.parrafo-tabla{
+    color: #06676F;
+    font-weight: bold;
+    display:inline;
+    left:30px;
+    font-size:80%;
+    margin-right:3px;
+    width:62%;
+    position: relative;
+    
+    display:none;
+}
+
+.logo-gob{
+    position: relative;
+    left: 65px;
+    width:3rem;
+    
+}
+
+.zonatabla{
+    position: relative;
+    left: 75px;
+    width:3rem;
+}
+
+.microalga1, .microalga2, .microalga3, .microalga4, .microalga5, .microalga6, .microalga7, .microalga8, .microalga9, .microalga10, .microalga11, .microalga12, .microalga13{
+    cursor: pointer;
+}
+
+.micronociva1, .micronociva2, .micronociva3, .micronociva4, .micronociva5, .micronociva6, .micronociva7, .micronociva8, .micronociva9, .micronociva10, .micronociva11, .micronociva12, .micronociva13{
+    display: none;
+    width: 550px;
+    height: auto;
+}
+
+.tabla{
+    margin:  0 auto;
+    border-collapse: collapse;
+}
+
+.tabla th{
+    text-align: center;
+    width:20px;
+    background-color: #00A4AE;
+    color: #fff;
+    
+}
+
+.tabla td{
+    text-align: center;
+    border-right:2px solid  #65d8df;
+    border-bottom:2px solid  #65d8df;
+    color: #000;
+    width:20px;
+}
+
+.seccion5{
+    color: aliceblue;
+    text-align: center;
+    background-image: url(./imagenes/fondos/fondomar4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed; 
+    background-position:center ;
+    
+}
+
+.subtitulo-nos{
+    font-weight: 400;
+    color:white;
+    margin-top: 0px;
+    margin-bottom:50px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.hr {
+    border-top: 1px solid white; 
+    width: 75%; 
+    margin: 20px auto; 
+  }
+
+  .parrafo-nosotros {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: justify;
+    max-width:720px;
+    font-size:0.9rem;
+    margin: 10px;
+}
+
+
+
+
+.imagen-principios {
+    display:flex; /* Usa flexbox para centrar verticalmente */
+   flex-direction: column;
+    justify-content: center; /* Centra horizontalmente */
+    padding: 0px;
+    align-items: center;
+    margin: 0;
+}
+
+.imagen-principios img {
+    max-width:45%; 
+    height: auto; 
+}
+
+.seccion3{
+    color: aliceblue;
+    text-align: justify;
+    background-image: url(./imagenes/fondos/fondomar.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed; 
+    background-position:center ;
+    opacity: 0.9;
+    border-top:1px solid cadetblue;
+}
+
+.subtitulo{
+    font-weight: 400;
+    color:white;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.fila-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    left:10%;
+    width:90%;
+    gap:15px;
+}
+
+.parrafo-servicios {
+    overflow: hidden;
+    text-align: justify;
+    margin: 10px;
+    font-size:0.9rem;
+    color:white;
+}
+
+.img13{
+width:80%;
+position: relative;
+left:10%;
+}
+.img4, .img5{width:90%; height:auto;}
+.img6{width:90%; height:auto; 
+    display: flex;
+    justify-content: center;
+    margin: 8px auto;
+}
+.img7{ width:70%; height:auto;
+    display: flex;
+    justify-content: center;
+    margin: 3px auto;
+}
+.img8{
+    width:90%; height:auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.img9{
+    width:90%; height:auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+.inimg{
+    width:70% ;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top:20px;
+}
+
+.seccion2{
+    border-bottom:1px solid cadetblue;
+    text-align: justify;
+    background-image: url(./imagenes/fondos/fondomar4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed; 
+    background-position:center ;
+    color:black;    
+    margin-top: 10px;
+}
+
+.inimg20,.inimg30,.inimg40,.inimg50,.inimg60,.inimg70 {width:70%; height:auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;}
+
+.subtitulotrans{
+    font-weight: 400;
+    color:white;
+    font-size:larger;
+    text-align: center;
+    margin: 19px auto;
+}
+
+.subtitulocacho{
+    font-weight: 400;
+    color:white;
+    font-size:x-large;
+    text-align: center;
+    margin: 19px auto;
+}
+
+ 
+.logomovimiento{
+    display: flex;
+    margin: 0 auto;
+    width:80%;
+  }
+
+  @keyframes emergeLogo {
+    0% {
+        transform: translateY(100%);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.seccion1{
+    background-image: url(./imagenes/fondos/fondomar8.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment:fixed; 
+	background-position:center ;
+    height:80vh;
+    position: relative;
+    top:10px;
 }

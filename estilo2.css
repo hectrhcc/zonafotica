@@ -115,6 +115,9 @@ footer ul{
     color:#ED1E35;
 }
 
+
+
+
 h3{
     color:#0FA5DE;
     font-size: large;
@@ -135,15 +138,7 @@ h3{
     margin-bottom:13px;
 }
 
-ul li.parrafo-referencias{
-    font-style: italic;
-    color: #888;
-    text-align:justify;
-    margin-bottom: 15px;
-    margin-top: 15px;
-    list-style:disc;
 
-}
 
 .seccion8{
     overflow-x: hidden;
@@ -176,6 +171,18 @@ ul li.parrafo-referencias{
     justify-content: center;
   }
 
+  .nombre-colaborador{
+    color:white;
+    font-weight: bold;
+    position: relative;
+    top:10px;
+    }
+    .cargo-colaborador{
+    color: beige;
+    position: relative;
+    top:5px;
+    }
+
   .titulo-colab{
     text-align: center;
     color: #fff;
@@ -194,14 +201,31 @@ ul li.parrafo-referencias{
 }
 
 .colaborador {
-    width: 150px;
-    height: 150px;
-    line-height: 1.5;
+    width: 125px;
+    height: 125px;
+    line-height: 1.6;
     text-align: center;
     color:beige;
-    font-size:75%;    
+    font-size:70%; 
+    position: relative;  
+    top:0px;
+    margin:10px;
+    border-radius:10%; 
+    border: 3px solid white;
+    background-color: #828FC9;
 }
 
+.colab{
+    font-size: smaller;
+    position: relative;
+    
+}
+
+.colaborador .fa-envelope , .colaborador .fa-linkedin ,.fa-researchgate {
+    position: relative;
+    top:10px;
+    
+}
 
   /* Estilos para el modal */
   .modal {
@@ -415,7 +439,7 @@ body.modal-open {
     position: relative;
     left:10%;
     width:90%;
-    gap:15px;
+    gap:10px;
 }
 
 .parrafo-servicios {
@@ -534,7 +558,7 @@ left:10%;
     color:#ED1E35;
   }
 
-
+ 
 
 
 ul li a:not(:active){
@@ -556,13 +580,30 @@ footer ul li a:hover{
     color: beige; 
 }
 
-.fa-circle {
-    font-size:4px; 
+
+ul li.parrafo-referencias{
+    font-style: italic;
+    color: #888;
+    text-align:justify;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    list-style:circle;
+    
+}
+.alinear1{
     position: relative;
-    top:-2px;
-  }
+    top:-12px;
+}
 
+.alinear2{
+    position: relative;
+    top:-19px;
+}
 
+.alinear3{
+    position: relative;
+    top:8px;
+}
 
 @media (min-width:1000px) {
 
@@ -602,9 +643,30 @@ footer ul li a:hover{
     .inimg{
         padding-bottom:30px;
     }
-    .inimg20,.inimg30,.inimg40,.inimg70 {width:30%; height:auto;
-        display: flex;
-        justify-content: flex-start;}
+
+    .inimg20{
+        width:30%; height:auto;
+        
+    }
+    .inimg30,.inimg40{
+        width:42%; height:auto;
+    }
+
+    .fila-img.post, .fila-img.post2  {
+        width:62%;
+        margin: 0 auto;
+    }
+
+    .fila-img.post3 {
+        width:77%;
+        margin: 0 auto;
+    }
+
+    .inimg70 {
+        width:30%; height:auto;
+        
+        
+    }
 
     .inimg40{
         width: 19%;
@@ -682,37 +744,50 @@ footer ul li a:hover{
     width:5rem;
 }
 
-.seccion6{
-    
-}
 
 .seccion8{
     width: 90%;
     margin-left:60px;
+    font-size: larger;
 }
 
-.seccion8 ul li{
+ul li{
     list-style:disc;
 }
 
-.seccion8 ul li::before {
-    font-family: "Font Awesome 5 Free";
-    margin-right: 5px;
-  }
-
-  .fa-circle {
-    font-size:6px; 
-    position: relative;
-    top:-2px;
-  }
   .colaborador {
     font-size:90%;    
-    line-height:1.3;
+    line-height:1;
+    width:140px;
+    height:140px;
+    margin:18px;
 }
+
+.cargo-colaborador{
+    position: relative;
+    top:17px;
+}
+
+.externo-colaborador{
+    position: relative;
+    top:28px;
+}
+
+.colaborador .fa-envelope , .colaborador .fa-linkedin ,.fa-researchgate {
+    position: relative;
+    top:28px;
+    margin: 0;
+    
+    
+}
+
+
+
 .row > * {
     margin-right:40px;
     margin-bottom:40px;
   }
+
 
   .parrafo-nosotros{
     font-size:x-large;

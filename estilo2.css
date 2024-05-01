@@ -556,6 +556,12 @@ footer ul li a:hover{
     color: beige; 
 }
 
+.fa-circle {
+    font-size:4px; 
+    position: relative;
+    top:-2px;
+  }
+
 
 
 @media (min-width:1000px) {

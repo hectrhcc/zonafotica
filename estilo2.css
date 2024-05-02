@@ -297,13 +297,12 @@ body.modal-open {
 
 .info-tabla{
     position: relative;
-    left:120px;
+    left:27px;
     top:6px;
-    font-size: 90%;
+    font-size: 99%;
     color: #06676F;
     display: block;
     font-weight: bold;
-    
     width: 9rem;
 
 }
@@ -322,14 +321,14 @@ body.modal-open {
 
 .logo-gob{
     position: relative;
-    left: 155px;
+    left:60px;
     width:2.7rem;
     top:7px;
 }
 
 .zonatabla{
     position: relative;
-    left: 165px;
+    left:70px;
     width:4rem;
 }
 
@@ -727,6 +726,7 @@ ul li.parrafo-referencias{
         padding-top:90px;
         min-height:115vh;
         font-size: medium;
+        overflow: hidden;
     }
 
     

@@ -292,12 +292,12 @@ body.modal-open {
 .fila-tabla{
     display: flex;
     flex-direction: row;
-    
+    justify-content: center;
 }
 
 .info-tabla{
     position: relative;
-    left:27px;
+  
     top:6px;
     font-size: 99%;
     color: #06676F;
@@ -321,14 +321,14 @@ body.modal-open {
 
 .logo-gob{
     position: relative;
-    left:60px;
+  
     width:2.7rem;
     top:7px;
 }
 
 .zonatabla{
     position: relative;
-    left:70px;
+  
     width:4rem;
 }
 
@@ -712,12 +712,10 @@ ul li.parrafo-referencias{
         margin-top:50px;
     }
     .tabla th{
-        width:25%;
-        
+        width:25%;  
     }
     
     .tabla td{
-     
         width:25%;
     }
     .seccion6{
@@ -732,7 +730,6 @@ ul li.parrafo-referencias{
     
 .info-tabla{
     position: relative;
-    left:10px;
     top:18px;
     font-size:100%;
     font-weight: bold;
@@ -745,13 +742,10 @@ ul li.parrafo-referencias{
     font-weight: bold;
     display:inline;
     top:20px;
-    left:30px;
     font-size:80%;
     margin-right:3px;
     width:50%;
     position: relative;
-    
-    
 }
 
 .logo-gob{
@@ -763,7 +757,6 @@ ul li.parrafo-referencias{
 
 .zonatabla{
     position: relative;
-    left:20px;
     width:5rem;
 }
 

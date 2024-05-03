@@ -595,8 +595,18 @@ ul li.parrafo-referencias{
     
 }
 
+.fila-img.post5{
+    position: relative;
+    width:80%;
+}
+
 
 @media (min-width:1000px) {
+    .fila-img.post5{
+        margin: 0 auto;
+        width: 70%;
+    }
+
     .alinear1{
         position: relative;
         top:43px;
@@ -678,9 +688,9 @@ ul li.parrafo-referencias{
     }
     .inimg70 {
         width:30%; height:auto;
-        
-        
     }
+
+    
 
     .inimg40{
         width: 19%;

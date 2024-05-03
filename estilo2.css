@@ -454,6 +454,11 @@ body.modal-open {
     color:white;
 }
 
+.img12{
+    position: relative;
+    left:-5px;
+    }
+
 .img13{
 width:80%;
 position: relative;
@@ -595,11 +600,31 @@ ul li.parrafo-referencias{
     
 }
 
+.fila-img{
+    width:83%;
+}
+.fila-img.post{
+    position: relative;
+    left:30px;
+}
+.fila-img.post2{
+    position: relative;
+    left:20px;
+}
 .fila-img.post5{
     position: relative;
     width:80%;
 }
 
+.fila-img.post4{
+    position: relative;
+    width:78%;
+}
+
+.fila-img.post3{
+    position: relative;
+    width:79%;   
+}
 
 @media (min-width:1000px) {
     .fila-img.post5{

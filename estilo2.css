@@ -609,11 +609,12 @@ ul li.parrafo-referencias{
 }
 .fila-img.post2{
     position: relative;
-    left:20px;
+    left:30px;
 }
 .fila-img.post5{
     position: relative;
-    width:80%;
+    
+    left:9%;
 }
 
 .fila-img.post4{

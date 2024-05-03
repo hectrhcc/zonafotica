@@ -630,8 +630,8 @@ ul li.parrafo-referencias{
 
 @media (min-width:1000px) {
     .fila-img.post5{
-        margin: 0 auto;
-        width: 70%;
+        position: relative;
+        left:0%;
     }
 
     .alinear1{
@@ -696,8 +696,10 @@ ul li.parrafo-referencias{
     }
 
     .fila-img.post, .fila-img.post2  {
-        width:62%;
-        margin: 0 auto;
+        width:65%;
+        left:17% ;
+        position: relative;
+        border:3px solid crimson;
     }
 
     .fila-img.post3 {

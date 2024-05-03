@@ -605,16 +605,17 @@ ul li.parrafo-referencias{
 }
 .fila-img.post{
     position: relative;
-    left:30px;
+    left:7%;
+    
 }
 .fila-img.post2{
     position: relative;
-    left:30px;
+    left:8%;
+    
 }
 .fila-img.post5{
     position: relative;
-    
-    left:9%;
+    left:10%;
 }
 
 .fila-img.post4{

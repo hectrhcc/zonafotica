@@ -108,7 +108,7 @@ footer ul{
 }
 
 .subtitulo-azul{
-    font-weight: 400;
+    font-weight: bold;
     color:#014960;
     margin-bottom: 40px;
     font-size: 40px;
@@ -155,9 +155,10 @@ h3{
 }
 
 .subtitulo-externo{
-    font-size:medium;
+    font-size:x-large;
     color: white;
     display: flex;
+    margin-top:0px;
     justify-content: center;
    }
 
@@ -166,13 +167,10 @@ h3{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
-    
     justify-content: center;
+    margin-bottom:85px;
   }
-  .row > * {
-    margin-right:0px;
-    margin-bottom:0px;
-  }
+  
   .colaboradorcentrado{
     display: flex;
     margin: 0 auto;
@@ -191,10 +189,6 @@ h3{
     top:5px;
     }
 
-  .titulo-colab{
-    text-align: center;
-    color: #fff;
-}
 
 .seccion7{
         transition: background-image 0.5s ease;
@@ -206,27 +200,26 @@ h3{
         opacity: 0.9;
         color:black;
         padding-top:10px ;
+        min-height:123vh;
 }
 
 .colaborador {
     width: 125px;
     height: 125px;
-    line-height: 1.6;
+    line-height: 1.39;
     text-align: center;
-    color:beige;
+    color:white;
     font-size:70%; 
     position: relative;  
     top:0px;
     margin:10px;
-    border-radius:10%; 
-    border: 1px solid white;
-    background-color: #828FC9;
+    
 }
 
 .colab{
     font-size: smaller;
     position: relative;
-    
+    color: bisque;
 }
 
 .colaborador .fa-envelope , .colaborador .fa-linkedin ,.fa-researchgate {
@@ -292,31 +285,29 @@ body.modal-open {
 .fila-tabla{
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center;
+    width:87%;
+    position: relative;
+    left:30px;
 }
 
 .info-tabla{
-    position: relative;
-  
-    top:6px;
-    font-size: 99%;
+    
+    font-size:93%;
     color: #06676F;
-    display: block;
+    display:inline-table;
     font-weight: bold;
-    width: 9rem;
-
+    width:auto;
+    
 }
 
 .parrafo-tabla{
     color: #06676F;
     font-weight: bold;
-    display:inline;
-    left:30px;
-    font-size:80%;
-    margin-right:3px;
-    width:62%;
-    position: relative;
-    display:none;
+    font-size:65%;
+    line-height:0.1em;
+    width:100%;
+    text-align: justify;
 }
 
 .logo-gob{
@@ -324,11 +315,11 @@ body.modal-open {
   
     width:2.7rem;
     top:7px;
+    left:0.2rem;
 }
 
 .zonatabla{
     position: relative;
-  
     width:4rem;
 }
 
@@ -376,7 +367,7 @@ body.modal-open {
 }
 
 .subtitulo-nos{
-    font-weight: 400;
+    font-weight: bold;
     color:white;
     margin-top: 0px;
     margin-bottom:50px;
@@ -397,7 +388,7 @@ body.modal-open {
     overflow: hidden;
     text-align: justify;
     max-width:720px;
-    font-size:0.9rem;
+    font-size:1rem;
     margin: 10px;
 }
 .imagen-principios {
@@ -427,11 +418,19 @@ body.modal-open {
 }
 
 .subtitulo{
-    font-weight: 400;
+    font-weight: bold;
     color:white;
     margin-bottom: 40px;
     margin-top: 40px;
-    font-size: 40px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.subtitulo2{
+    font-weight: bold;
+    color:white;
+    width:77%;
+    margin: 0 auto;
+    font-size: 1.4rem;
     text-align: center;
 }
 
@@ -450,7 +449,7 @@ body.modal-open {
     overflow: hidden;
     text-align: justify;
     margin: 10px;
-    font-size:0.9rem;
+    font-size:1.1rem;
     color:white;
 }
 
@@ -517,19 +516,19 @@ left:10%;
     
 
 .subtitulotrans{
-    font-weight: 400;
+    font-weight: bold;
     color:white;
-    font-size:larger;
+    font-size:xx-large;
     text-align: center;
     margin: 19px auto;
 }
 
 .subtitulocacho{
-    font-weight: 400;
     color:white;
-    font-size:x-large;
+    font-weight: bold;
+    font-size:xx-large;
     text-align: center;
-    margin: 19px auto;
+    margin: 20px auto;
 }
 
  
@@ -628,7 +627,24 @@ ul li.parrafo-referencias{
     width:79%;   
 }
 
+.colaborador-afoto{
+    width:70%;
+    height: auto;
+    border-radius: 50%;
+    border:3px solid rgb(135, 201, 204);
+}
+
+
 @media (min-width:1000px) {
+    .colaboradorcentrado{
+        position: relative;
+        right:17px;
+    }
+    .subtitulo-externo{
+        margin-top:80px;
+        position: relative;
+        right:15px;
+    }
     .fila-img.post5{
         position: relative;
         left:0%;
@@ -639,7 +655,14 @@ ul li.parrafo-referencias{
         top:43px;
     }
 
-
+    .subtitulo2{
+    font-weight: bold;
+    color:white;
+    width:77%;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    text-align: center;
+}
     
     .alinear3{
         position: relative;
@@ -766,37 +789,41 @@ ul li.parrafo-referencias{
         overflow: hidden;
     }
 
-    
+
 .info-tabla{
     position: relative;
-    top:18px;
-    font-size:100%;
+    font-size:x-large;
     font-weight: bold;
-    width: 17rem;
-
+    display: block;
+    width:31rem;
+    
 }
 
 .parrafo-tabla{
     color: #06676F;
     font-weight: bold;
-    display:inline;
-    top:20px;
-    font-size:80%;
-    margin-right:3px;
-    width:50%;
+    display:block;
+    left:0.1rem;
+    font-size:95%;
+    width:75%;
     position: relative;
+    line-height:1em;
+    
 }
 
 .logo-gob{
     position: relative;
-    left:0px;
-    width:3rem;
-    top:10px;
+    left:-9rem;
+    width:6rem;
+    top:3px;
+    
 }
 
 .zonatabla{
     position: relative;
-    width:5rem;
+    bottom:-0.3rem;
+    right:7rem;
+    width:7rem;
 }
 
 
@@ -829,22 +856,18 @@ ul li.parrafo-referencias{
     position: relative;
     top:28px;
     margin: 0;
-    
-    
 }
 
-
-
-.row > * {
+.row{
     margin-right:40px;
-    margin-bottom:40px;
-  }
+    margin-bottom:80px;
+}
+
 
 
   .parrafo-nosotros{
     font-size:x-large;
     margin: 0 auto;
-    min-height: 60vh;
   }
   
   .contacto{
@@ -855,7 +878,7 @@ ul li.parrafo-referencias{
   }
 
   .parrafo-servicios{
-    font-size:x-large;
+    font-size:large;
     width:55rem;
     text-align: justify;
     margin: 0 auto;
@@ -906,10 +929,13 @@ position: relative;
 left:60px;
 }
 
-.seccion5, .seccion4, .seccion7{
+.seccion5, .seccion4{
     padding-top:90px;
 }
 
+.seccion7{
+    min-height:230vh;
+}
 .seccion4{
     height:105vh;
 }

@@ -70,7 +70,6 @@ footer{
 
 .rrssfooter{
     margin: 5px auto;
-    
 }
 
 footer ul{
@@ -89,7 +88,6 @@ footer ul{
    width: 22px;
    height:22px;
    position: relative;
-   
    text-align: center;
     text-decoration: none;
     color: cadetblue;
@@ -110,9 +108,10 @@ footer ul{
 .subtitulo-azul{
     font-weight: bold;
     color:#014960;
-    margin-bottom: 40px;
+    padding-bottom: 40px;
     font-size: 40px;
     text-align: center;
+    margin: 0 auto;
 }
 
 #whatsapp-icon {
@@ -151,7 +150,7 @@ h3{
 .seccion8{
     overflow-x: hidden;
     font-size:91%;
-    margin:10px;
+    margin:10px;  
 }
 
 .subtitulo-externo{
@@ -641,7 +640,7 @@ ul li.parrafo-referencias{
     .colaboradorcentrado{
         position: relative;
         right:17px;
-        padding-bottom: 10px;
+        padding-bottom:80px;
     }
     .subtitulo-externo{
         margin-top:80px;
@@ -829,11 +828,13 @@ ul li.parrafo-referencias{
     width:7rem;
 }
 
-
 .seccion8{
     width: 90%;
     margin-left:60px;
     font-size: larger;
+    width:inherit;
+    text-align: justify;
+    margin: 0 auto;
 }
 
 
@@ -892,15 +893,16 @@ ul li.parrafo-referencias{
     padding-top:0px;
   }
   .parrafofinal{
-    position: relative;
-    left:-330px;
+    position:relative;
+    right:250px;
     top:60px;
-    
   }
+
   .rrssfooter{
     position: relative;
     top:35px;
-    left:200px
+    left:200px;
+    
   }
   
   nav ul li{
@@ -936,10 +938,7 @@ left:60px;
     padding-top:90px;
 }
 
-.seccion7{
-    min-height:140vh;
-    
-}
+
 .seccion4{
     height:105vh;
 }
@@ -963,3 +962,17 @@ h3{
     width:50%;
 }
 }
+
+@media (min-width: 1200px) {
+    .parrafofinal {
+      right:300px;
+    }
+  }
+
+  @media (min-width: 1500px) {
+    .parrafofinal {
+      right:500px;
+    }
+  }
+  
+  

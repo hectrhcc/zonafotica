@@ -641,6 +641,7 @@ ul li.parrafo-referencias{
     .colaboradorcentrado{
         position: relative;
         right:17px;
+        padding-bottom: 10px;
     }
     .subtitulo-externo{
         margin-top:80px;
@@ -936,7 +937,7 @@ left:60px;
 }
 
 .seccion7{
-    min-height:200vh;
+    min-height:140vh;
     
 }
 .seccion4{

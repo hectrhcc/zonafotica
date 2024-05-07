@@ -175,6 +175,7 @@ h3{
     display: flex;
     margin: 0 auto;
     justify-content: center;
+    border:3px solid crimson;
   }
 
   .nombre-colaborador{
@@ -191,6 +192,7 @@ h3{
 
 
 .seccion7{
+    display:flexbox;
         transition: background-image 0.5s ease;
         background-image: url(./imagenes/fondos/fondomar.jpeg   );
 	    background-repeat: no-repeat;
@@ -200,7 +202,7 @@ h3{
         opacity: 0.9;
         color:black;
         padding-top:10px ;
-        height:160vh;
+        min-height:130vh;
 }
 
 .colaborador {
@@ -934,7 +936,7 @@ left:60px;
 }
 
 .seccion7{
-    min-height:230vh;
+    min-height:200vh;
 }
 .seccion4{
     height:105vh;

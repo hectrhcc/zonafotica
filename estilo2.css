@@ -290,6 +290,7 @@ body.modal-open {
     width:87%;
     position: relative;
     left:30px;
+    margin: 0 auto;
 }
 
 .info-tabla{

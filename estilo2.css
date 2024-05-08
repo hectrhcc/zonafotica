@@ -976,13 +976,14 @@ h3{
 
   @media (max-width:338px) {
     .parrafofinal {
-      font-size:90%;
+      font-size:80%;
     }
     .seccion6 {
         width:auto;
         overflow-x: hidden;
     }
-    .subtitulotrans{
+    .subtitulotrans, .subtitulocacho{
+        font-size:80%;
   }
   
   }

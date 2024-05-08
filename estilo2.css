@@ -956,8 +956,22 @@ h3{
 }
 
 @media (min-width: 1200px) {
+    .seccion8{
+        margin:1.5rem;
+    }
+    .seccion6{
+        min-height:70%;
+    }
     .parrafofinal {
       right:300px;
+    }
+    .logo-gob{
+     transform: translateX(-120%);
+        
+    }
+    .zonatabla{
+        position: relative;
+        left:-150%;
     }
   }
 

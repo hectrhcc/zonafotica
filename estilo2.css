@@ -1013,26 +1013,28 @@ h3{
   }
   .info-tabla{
     position: relative;
-   right:2rem; 
-   width: 100%;
+   right:3rem; 
+   width: 140%;
    
 }
 
 .parrafo-tabla{
     position: relative;
-    right:2rem; 
+    right:3rem; 
 }
 
 .logo-gob{
     position: relative;
-    left:-1.5rem; 
+    left:-1.7rem; 
     top:1rem;
+    width:2rem;
 }
 
 .zonatabla{
     position: relative;
-    right:1rem; 
-    top:0.5rem;
+    right:1.4rem; 
+    top:1rem;
+    width:2.5rem ;
 }
   
   }

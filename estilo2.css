@@ -1098,29 +1098,44 @@ h3{
 .animate {
     animation-play-state:running;
   }
-
-.inimg, .fila-img, .img8 , .img9, .img13 , .inimg70 {
-    animation: img-move 6s;
-}
     
-@keyframes img-move {
-from {
-transform: translateX(100%);
-}
-to {
-transform: translateX(0);
-}
-}
-    
-.parrafo-servicios, .parrafo-nosotros ,.subtitulocacho, .subtitulo , .subtitulo2, .subtitulo-negro, .subtitulo-nos ,.subtitulo-azul, .subtitulotrans {
-animation: txt-move 6s;
-}
     
 @keyframes txt-move {
 from {
-transform: translateX(-100%);
+transform: translateY(200%);
 }
 to {
-transform: translateX(0);
+transform: translateY(0);
 }
 }
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+img, video {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+	animation-timeline: --image;
+	animation-name: show;
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+    
+}
+
+.parrafo-servicios ,.parrafo-nosotros ,.subtitulocacho, .subtitulo , .subtitulo2, .subtitulo-negro, .subtitulo-nos ,.subtitulo-azul, .subtitulotrans{
+    view-timeline-name: --parrafo;
+    animation-timeline: --parrafo;
+    animation-name: txt-move;
+    animation-direction:forwards;
+    animation-range: entry 0% cover 40%;
+}
+

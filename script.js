@@ -45,13 +45,6 @@ document.addEventListener('DOMContentLoaded', () => {
     modal.style.zIndex= '1';
     document.body.classList.add('modal-open'); 
     })
-    /*microalga3.addEventListener('click',()=>{
-    modal.style.display = 'block'; 
-    modalImg.src = imagen3.src; 
-    imagen3.style.zIndex = '10';
-    modal.style.zIndex= '1';
-    document.body.classList.add('modal-open'); 
-    })*/
     microalga4.addEventListener('click',()=>{
     modal.style.display = 'block'; 
     modalImg.src = imagen4.src; 
@@ -137,42 +130,8 @@ document.addEventListener('DOMContentLoaded', () => {
         //banner.style.zIndex = '2'; 
         /*banner.style.display = 'block'; se desconfigura*/
     });
-/*
-    imagenes.forEach(imagen => {
-        imagen.addEventListener('click', () => {
-            modal.style.display = 'block'; // Muestra el modal
-            modalImg.src = imagen.src; // Establece la imagen del modal
-            banner.style.zIndex = '1'; // Cambia el z-index del banner para que quede detrás del modal
-            document.body.classList.add('modal-open'); // Agrega la clase al body
-        });
-    });
 
-    closeButton.addEventListener('click', () => {
-        modal.style.display = 'none'; // Oculta el modal al hacer clic en el botón de cierre
-        document.body.classList.remove('modal-open'); // Remueve la clase del body
-        banner.style.zIndex = '2'; // Restaura el z-index original del banner al cerrar el modal
-        
-    });
-*/
-/* colaboradores en circulo
-    $(document).ready(function() {
-        var colaboradores = $(".colaborador");
-        var numColaboradores = colaboradores.length;
-        var angulo = 360 / numColaboradores;
-        var radio = 180;
-
-        colaboradores.each(function(index) {
-            var radianes = (angulo * index * Math.PI) / 180;
-            var posicionX = Math.cos(radianes) * radio + 200; // 200 es el centro del contenedor
-            var posicionY = Math.sin(radianes) * radio + 200;
-
-            $(this).css({
-                left: posicionX + "px",
-                top: posicionY + "px"
-            });
-        });
-    });*/
-    
     let logo = document.querySelector('.logomovimiento');
     logo.style.animation = 'emergeLogo 2s forwards';
+
 });

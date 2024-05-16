@@ -447,7 +447,7 @@ body.modal-open {
     overflow: hidden;
     text-align: justify;
     margin: 10px;
-    font-size:1.1rem;
+    font-size:0.99rem;
     color:white;
 }
 
@@ -524,7 +524,7 @@ left:10%;
 .subtitulocacho{
     color:white;
     font-weight: bold;
-    font-size:xx-large;
+    font-size: medium;
     text-align: center;
     margin: 20px auto;
 }
@@ -631,6 +631,69 @@ ul li.parrafo-referencias{
     border-radius: 50%;
     border:3px solid rgb(135, 201, 204);
 }
+
+
+.animate {
+    animation-play-state:running;
+  }
+    
+    
+@keyframes txt-move {
+from {
+transform: translateY(200%);
+}
+to {
+transform: translateY(0);
+}
+}
+
+@keyframes txt-move2 {
+    from {
+    transform: translateY(50%);
+    }
+    to {
+    transform: translateY(0);
+    }
+    }
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 25%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+img, video {
+	view-timeline-name: --image;
+	view-timeline-axis: block;
+	animation-timeline: --image;
+	animation-name: show;
+	animation-range: entry 25% cover 30%;
+	animation-fill-mode: both;
+    
+}
+
+ .parrafo-nosotros ,.subtitulocacho, .subtitulo , .subtitulo2, .subtitulo-negro, .subtitulo-nos ,.subtitulo-azul, .subtitulotrans{
+    view-timeline-name: --parrafo;
+    animation-timeline: --parrafo;
+    animation-name: txt-move;
+    animation-direction:forwards;
+    animation-range: entry 0% cover 23%;
+}
+
+.parrafo-servicios{
+    view-timeline-name: --parrafo;
+    animation-timeline: --parrafo;
+    animation-name: txt-move2;
+    animation-direction:forwards;
+    animation-range: entry 0% cover 23%;
+}
+
 @media (max-width:338px) {
     .parrafofinal {
       font-size:80%;
@@ -639,9 +702,12 @@ ul li.parrafo-referencias{
         width:auto;
         overflow-x: hidden;
     }
-    .subtitulotrans, .subtitulocacho{
+    .subtitulotrans{
         font-size:80%;
   }
+  .subtitulocacho{
+    font-size:120%;
+}
   .info-tabla{
     position: relative;
    right:3rem; 
@@ -1040,7 +1106,17 @@ h3{
     top:2%;
     width:50%;
 }
+@keyframes txt-move2 {
+    from {
+    transform: translateY(200%);
+    }
+    to {
+    transform: translateY(0);
+    }
+    }
 }
+
+
 
 @media (min-width: 1200px) {
     .seccion8{
@@ -1060,6 +1136,14 @@ h3{
         position: relative;
         left:-150%;
     }
+    @keyframes txt-move2 {
+        from {
+        transform: translateY(200%);
+        }
+        to {
+        transform: translateY(0);
+        }
+        }
   }
 
   @media (min-width: 1500px) {
@@ -1093,49 +1177,5 @@ h3{
         position: relative;
         left:3.2rem;
   }
-}
-
-.animate {
-    animation-play-state:running;
-  }
-    
-    
-@keyframes txt-move {
-from {
-transform: translateY(200%);
-}
-to {
-transform: translateY(0);
-}
-}
-
-@keyframes show {
-	from {
-		opacity: 0;
-		scale: 25%;
-	}
-
-	to {
-		opacity: 1;
-		scale: 100%;
-	}
-}
-
-img, video {
-	view-timeline-name: --image;
-	view-timeline-axis: block;
-	animation-timeline: --image;
-	animation-name: show;
-	animation-range: entry 25% cover 30%;
-	animation-fill-mode: both;
-    
-}
-
-.parrafo-servicios ,.parrafo-nosotros ,.subtitulocacho, .subtitulo , .subtitulo2, .subtitulo-negro, .subtitulo-nos ,.subtitulo-azul, .subtitulotrans{
-    view-timeline-name: --parrafo;
-    animation-timeline: --parrafo;
-    animation-name: txt-move;
-    animation-direction:forwards;
-    animation-range: entry 0% cover 40%;
 }
 

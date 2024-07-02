@@ -701,6 +701,9 @@ img, video {
     animation-range: entry 0% cover 23%;
 }
 
+.logofooter{
+    margin: 0 auto;
+}
 @media (max-width:338px) {
     .parrafofinal {
       font-size:80%;

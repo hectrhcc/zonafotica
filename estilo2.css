@@ -61,6 +61,8 @@ footer{
     flex-direction: column;
 }
 
+
+
 .zonafoticafooter{
     width: 100px;
     height:100px;
@@ -69,7 +71,7 @@ footer{
 }
 
 .rrssfooter{
-    margin: 5px auto;
+    text-align: center;
 }
 
 footer ul{
@@ -79,10 +81,11 @@ footer ul{
 .parrafofinal{
     color:white;
     margin: 7px auto;
+    text-align: center;
 }
 
 .rrss-icon2{
-    margin:0 5px;
+    margin:0 auto;
     border-radius: 50%;
    display: inline-block;
    width: 22px;
@@ -848,8 +851,7 @@ img, video {
     }
     footer{
         flex-direction: row;
-        position: relative;
-        top:40px;;
+       
     }
     
     .fila-img{
@@ -1039,16 +1041,19 @@ img, video {
     padding-top:0px;
   }
   .parrafofinal{
-    position:relative;
-    right:250px;
-    top:60px;
+    text-align: center;
   }
 
+  .referencias{
+    padding:1rem; 
+}
+
   .rrssfooter{
-    position: relative;
-    top:35px;
-    left:200px;
-    
+   margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
   }
   
   nav ul li{
@@ -1063,15 +1068,7 @@ img, video {
     
 }
 
-footer ul li{
-    position: relative;
-    left:400px;
-    
-}
 
-footer{
-    border:55px solid #014960;
-}
 
 .zonafoticafooter{
 width: 10rem;

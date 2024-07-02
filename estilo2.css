@@ -204,7 +204,7 @@ h3{
         opacity: 0.9;
         color:black;
         padding-top:10px ;
-        min-height:140vh;
+        
 }
 
 .colaborador {
@@ -506,7 +506,8 @@ left:10%;
     background-attachment:fixed; 
     background-position:center ;
     color:black;    
-    margin-top: 10px;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
 }
 
 .inimg20,.inimg30,.inimg40,.inimg50, .inimg60, .inimg70 {width:70%; height:auto;
@@ -797,6 +798,26 @@ img, video {
     }
   }
 @media (min-width:1000px) {
+    .logoprimero{
+        width: 12rem;
+    }
+    nav{
+        position: fixed;
+        z-index: 10;
+        height:9.5rem;
+        width: 100%;
+    }
+    .seccion1{
+        height:97.5vh;
+    }
+    .seccion1 , .seccion2 , .seccion3 , .seccion4 , .seccion5 ,  .seccion7 , .seccion8 {
+        scroll-margin-top:8rem;
+    }
+    .seccion9{
+        scroll-margin-top:11rem;
+        
+    }
+  
     .colaboradorcentrado{
         position: relative;
         right:17px;
@@ -945,12 +966,15 @@ img, video {
         width:25%;
     }
     .seccion6{
-        width: 80%;
+        width: 90%;
         margin: 0 auto;
-        padding-top:90px;
-        min-height:115vh;
+        padding-top:2rem;
+        min-height:97vh;
         font-size: medium;
         overflow: hidden;
+    }
+    .seccion7{
+        min-height:140vh;
     }
 
 

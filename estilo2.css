@@ -857,7 +857,10 @@ img, video {
     }
     footer{
         flex-direction: row;
-       justify-content: space-between;
+       justify-content: space-evenly;
+    }
+    .logofooter{
+        margin: inherit;
     }
     
     .fila-img{

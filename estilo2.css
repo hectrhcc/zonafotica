@@ -4,8 +4,12 @@
     box-sizing: border-box;
   }
   
+html{
+    scroll-behavior: smooth;
+}
 body{
     font-family: 'Open Sans', sans-serif;
+    transition: transform 1s ease-in-out;
 }
 
 nav img{
